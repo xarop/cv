@@ -215,11 +215,13 @@ function displayAllPosts($posts_count = 5, $excerpt_length = 75) {
       float: right;
       color: #666;
       width: 30%;
+      border-left: dotted 1px #ccc;
+      
     }
 
     .sidebar figure {
-      width: 180px;
-      height: 180px;
+      width: 140px;
+      height: 140px;
       border-radius: 90px;
       overflow: hidden;
       margin: 0 auto;
@@ -305,7 +307,8 @@ function displayAllPosts($posts_count = 5, $excerpt_length = 75) {
       .sidebar {
         float: none;
         width: 100%;
-        margin-top: 20px;
+        margin-top: 2em;
+        border: none;
       }
     }
 
@@ -323,9 +326,6 @@ function displayAllPosts($posts_count = 5, $excerpt_length = 75) {
         overflow: hidden;
       }
 
-      .sidebar {
-        padding-top: 2em;
-      }
 
       .print {
         display: block !important;
@@ -362,14 +362,15 @@ function displayAllPosts($posts_count = 5, $excerpt_length = 75) {
       }
 
       .intro {
-        width: 70%;
+        /* width: 70%; */
       }
 
       .sidebar {
-        text-align: right;
         float: right;
-        width: 25%;
+        /* width: 30%; */
         padding-left: 0;
+        padding-top: 2em;
+        margin-top: 2em;
       }
 
       .sidebar img {

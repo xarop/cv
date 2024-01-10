@@ -42,9 +42,11 @@
     nav {
       font-family: 'Open Sans', sans-serif;
     }
+
     figure {
       margin: 0;
     }
+
     label {
       display: block;
       font-size: .75em;
@@ -105,6 +107,7 @@
       font-size: 12px;
       color: #aaa;
     }
+
     nav ul {
       margin: 0 auto;
       padding: 0;
@@ -122,11 +125,12 @@
       margin: 1em auto;
       padding: 1em;
     }
-    .social-links-menu span{
+
+    .social-links-menu span {
       display: none;
     }
 
-    .social-links-menu li{
+    .social-links-menu li {
       display: inline;
       padding: .25em;
     }
@@ -160,7 +164,7 @@
     }
 
     .sidebar figure {
-      width: 180px ;
+      width: 180px;
       height: 180px;
       border-radius: 90px;
       overflow: hidden;
@@ -224,27 +228,32 @@
     }
 
 
+   
+      .row {
+        display: flex;
+        gap: 4em;
+      }
+
+  
 
     /* Smartphones (landscape) ----------- */
-    @media (max-width : 800px) {
+    @media (max-width : 600px) {
+      .row {
+        display: block;
+      }
+      header {
+        text-align: center;
+      }
+
       .intro {
         width: 100%;
+        padding-bottom: 2em;
       }
 
       .sidebar {
-        text-align: left;
-        float: left;
+        float: none;
         width: 100%;
-        padding-left: 0px;
         margin-top: 20px;
-      }
-
-      .sidebar img {
-        float: left;
-        margin-right: 20px;
-        display: table-column;
-        margin-bottom: 20px;
-        max-width: 100%;
       }
     }
 
@@ -260,6 +269,10 @@
         background: initial;
         page-break-after: always;
         overflow: hidden;
+      }
+
+      .sidebar {
+        padding-top: 2em;
       }
 
       .print {
@@ -284,6 +297,8 @@
         top: 0;
         right: 0;
         border: none;
+        width: 100%;
+        display: table;
       }
 
       small {
@@ -324,33 +339,34 @@
     <h1 class="title">Adrià Julià Lundgren<span>currículum vitae</span></h1>
     <div class="intro">
       <h2>UI/UX designer & FrontEnd Developer</h2>
-    
+
       <strong>Diseñador gráfico y programador multimedia especializado en el diseño de Interficies de Usuario con las
         tecnologias mas actuales:</strong>
-      <p><em>HTML5, CSS3, SASS, JavaScript, jQuery, PHP, React, Angular, VueJS, Phython, Bootstrap, Responsive Design, WordPress,
+      <p><em>HTML5, CSS3, SASS, JavaScript, jQuery, PHP, React, Angular, VueJS, Phython, Bootstrap, Responsive Design,
+          WordPress,
           Drupal, SEO, eCommerce, WooCommerce, PrestaShop, SCRUM, GIT, NodeJS, npm</em></p>
 
       <figure>
         <a href="//xarop.com/"><img src="//xarop.com/xarop-logo.png" alt="xarop.com" height="60"></a>
-      
+
         <label>
-         Portfolio, servicios y blog en <strong><a href="//www.xarop.com" target="_blank">xarop.com</a></strong>
+          Portfolio, servicios y blog en <strong><a href="//www.xarop.com" target="_blank">xarop.com</a></strong>
         </label>
       </figure>
 
-  
+
     </div>
-    <nav class="sidebar"> 
+    <nav class="sidebar">
       <figure>
         <img title="Adrià Julià Lundgren" src="//xarop.com/cv/ajl0.jpg" alt="Adrià Julià Lundgren" />
       </figure>
       <ul>
         <li>11/09/1968</li>
-        <li>C/ Diluvi, 8, 2º1ª<br/>08012 BARCELONA</li>
+        <li>C/ Diluvi, 8, 2º1ª<br />08012 BARCELONA</li>
         <li><strong><a href="tel:+34 620582626">+34 620 58 26 26</a></strong></li>
         <li><a href="//xarop.com/">xarop.com</a></li>
         <li><strong><a href="mailto:ajl@xarop.com">ajl@xarop.com</a></strong></li>
-      <!-- <a href="//twitter.com/xarop/">@xarop</a> -->
+        <!-- <a href="//twitter.com/xarop/">@xarop</a> -->
       </ul>
       <ul id="menu-social" class="social-links-menu">
         <!-- <li><a href="https://twitter.com/xarop"><span>Twitter</span><svg class="svg-icon" width="32" height="32"
@@ -388,12 +404,12 @@
         <li><a href="#page2">FORMACIÓN</a></li>
         <li><a href="#page3">COMPETENCIAS TÉCNICAS</a></li>
         <li><a href="javascript:window.print()">IMPRIMIR</a></li>
-      </ul>  
+      </ul>
 
     </nav>
 
- 
-      
+
+
   </header>
 
 
@@ -408,15 +424,18 @@
 
       <p><strong>FrontEnd developer en BeeData analytics</strong> 
         (<a href="//beedataanalytics.com/" target="_blank">beedataanalytics.com</a>)<br />
-          Desarrollo FrontEnd en la generación de informes personalizadosen PDF para diversas compañias eléctricas, así como el desarrollo de la web coorporativa y diversas <em>webapps</em>
-          <br />
-        <small>BigData, Figma, HTML, CSS/SASS, jQuery, D3, Python, Git, React, PDF, Responsive design, WordPress, ACF, Polylang.</small>
+        Desarrollo FrontEnd en la generación de informes personalizadosen PDF para diversas compañias eléctricas, así
+        como el desarrollo de la web coorporativa y diversas <em>webapps</em>
+        <br />
+        <small>BigData, Figma, HTML, CSS/SASS, jQuery, D3, Python, Git, React, PDF, Responsive design, WordPress, ACF,
+          Polylang.</small>
       </p>
 
       <p><strong>FrontEnd developer para Editorial Planeta</strong> 
-        (<a href="//www.casadellibro.com/" target="_blank">casadellibro.com</a> y <a href="//www.eae.es/" target="_blank">eae.es</a>)<br />
+        (<a href="//www.casadellibro.com/" target="_blank">casadellibro.com</a> y <a href="//www.eae.es/"
+          target="_blank">eae.es</a>)<br />
         Implementación de los nuevos websites de la Casa del Libro y de la EAE Business School.
-          <br />
+        <br />
         <small>HTML5, CSS/SASS, JavaScript, VueJS, Drupal, PHP, Symfony, Twig, ...</small>
       </p>
 
@@ -440,7 +459,7 @@
         Desarrollo FrontEnd con <em>WordPress</em>. <br />
         <small>Responsive design, WordPress, ACF, HTML5, CSS3, jQuery, PHP, Git, GoogleMaps, Caldera Forms ...</small>
       </p>
-<!-- 
+      <!-- 
       <p><strong>Diseño y desarrollo del <em>website</em> del Master de Estudios internacionales de la Universitat de
           Barcelona</strong> 
         (<a href="//ub.edu/mei" target="_blank">ub.edu.mei</a>)<br />
@@ -449,12 +468,17 @@
       </p> -->
 
       <p><strong>Diseño y desarrollo de diversos sites bajo el CMS WordPress</strong> <br />
-      <strong><a href="//junglemows.com" target="_blank">JungleMows.com</a></strong>:  Diseño, maquetación <em>ecommerce</em>.<br />
-      <strong><a href="//ub.edu/mei" target="_blank">ub.edu.mei</a></strong>:  Diseño, maquetación y programación del website adaptativo para la Universitat de Barcelona<br />
-      <strong><a href="//beedataanalytics.com/" target="_blank">hbeedataanalytics.com/</a></strong>:  Web corporativa<br />
-      <strong><a href="//www.garatgejca.eu/" target="_blank">garatgeJCA.eu</a></strong>:  Diseño, maquetación y programación del website adaptativo de comercio local.<br />
-      <small>Figma, WordPress, ACF, Polylang, GoogleMaps Api, HTML, CSS/SASS, jQuery, PHP, Git, Guthenberg, Ultimate Members, Vimeo, ...</small>
-    </p>
+        <strong><a href="//junglemows.com" target="_blank">JungleMows.com</a></strong>: Diseño, maquetación
+        <em>ecommerce</em>.<br />
+        <strong><a href="//ub.edu/mei" target="_blank">ub.edu.mei</a></strong>: Diseño, maquetación y programación del
+        website adaptativo para la Universitat de Barcelona<br />
+        <strong><a href="//beedataanalytics.com/" target="_blank">hbeedataanalytics.com/</a></strong>: Web
+        corporativa<br />
+        <strong><a href="//www.garatgejca.eu/" target="_blank">garatgeJCA.eu</a></strong>: Diseño, maquetación y
+        programación del website adaptativo de comercio local.<br />
+        <small>Figma, WordPress, ACF, Polylang, GoogleMaps Api, HTML, CSS/SASS, jQuery, PHP, Git, Guthenberg, Ultimate
+          Members, Vimeo, ...</small>
+      </p>
 
 
     </article>
@@ -671,213 +695,206 @@
 
   </section>
 
-  <section id="page2" class="page">
-    <h3>FORMACIÓN</h3>
 
-    
+  <div class="row">
+    <section id="page2" class="page">
+      <h3>FORMACIÓN</h3>
+      <article>
+        <h4 class="title">Postgrado de Programación Multimedia<span>2003</span></h4>
+        <p><strong>Universidad Pompeu Fabra</strong><br />
+          Programación multimedia, HTML, CSS, PHP, MySQL, ActionScript, JavaScript, Lingo...</p>
+      </article>
+      <article>
+        <h4 class="title">Escola Superior de disseny Llotja<span>1995 - 1999</span></h4>
+        <p><strong>Título Oficial de Diseño Gráfico</strong> en la E.A.A.O.A. Llotja. <br />
+          Especialidad Gráfica Publicitaria. El diseñador gráfico es el responsable de traducir al lenguaje visual las
+          ideas y conceptos que han de llegar al público objetivo.</p>
+      </article>
+      <article>
+        <h4 class="title">Multimedia<span>1995 - 1996</span></h4>
+        <p> <strong>Técnico en tratamientos Multimedia</strong>, estudios en ITES-Imatge i só (proyectos
+          multimedia).<br />
+          Diseño y desarrollo de Proyectos Multimedia (CDRom), Macromedia Director, Lingo, Adobe Premiere, Photoshop,
+          edición de video y audio.<br />
+        </p>
+      </article>
+      <article>
+        <h4 class="title">Bachillerato y COU<span>1985 - 1989</span></h4>
+        <p> <strong>Institut de Batxillerat Montserrat</strong>, Barcelona..<br />
+        </p>
+      </article>
+      <article>
+        <h4 class="title">Otra formación</h4>
+        <p>
+          <strong>React/Redux avanzado</strong> o en ImaginaGroup<span class="right">2020</span><br />
+          <strong>Angular de cero a experto</strong> en Udemy<span class="right">2017</span><br />
+          <strong>Creación de webapps</strong> en Barcelona Activa<span class="right">2017</span><br />
+          <strong>Angular JS </strong> en Barcelona Activa<span class="right">2017</span><br />
+          <strong>Creación de Android apps </strong> en Barcelona Activa<span class="right">2012</span><br />
+          <strong>Habilidades directivas</strong> en Barcelona Activa<span class="right">2003</span><br />
+          <strong>Supervisor de sistemas PC</strong>, Barcelona Activa (200h).<span class="right">1995</span><br />
+          <strong>Diseño asistido por ordenador</strong> (AUTOCAD) en CENEC.<span class="right">1992</span><br />
+        </p>
+      </article>
+      <article>
+        <h4 class="title">Idiomas</h4>
+        <p> <strong>Català</strong>: materno<br />
+          <strong>Inglés</strong>: nivel medio (comprensión técnica)<br />
+          <strong>Italiano</strong>: nivel medio.<br />
+          <strong>Sueco</strong>: nivel básico.
+        </p>
+      </article>
 
-    <article>
-      <h4 class="title">Postgrado de Programación Multimedia<span>2003</span></h4>
-      <p><strong>Universidad Pompeu Fabra</strong><br />
-        Programación multimedia, HTML, CSS, PHP, MySQL, ActionScript, JavaScript, Lingo...</p>
-    </article>
-    <article>
-      <h4 class="title">Escola Superior de disseny Llotja<span>1995 - 1999</span></h4>
-      <p><strong>Título Oficial de Diseño Gráfico</strong> en la E.A.A.O.A. Llotja. <br />
-        Especialidad Gráfica Publicitaria. El diseñador gráfico es el responsable de traducir al lenguaje visual las
-        ideas y conceptos que han de llegar al público objetivo.</p>
-    </article>
-    <article>
-      <h4 class="title">Multimedia<span>1995 - 1996</span></h4>
-      <p> <strong>Técnico en tratamientos Multimedia</strong>, estudios en ITES-Imatge i só (proyectos
-        multimedia).<br />
-        Diseño y desarrollo de Proyectos Multimedia (CDRom), Macromedia Director, Lingo, Adobe Premiere, Photoshop,
-        edición de video y audio.<br />
-      </p>
-    </article>
-    <article>
-      <h4 class="title">Bachillerato y COU<span>1985 - 1989</span></h4>
-      <p> <strong>Institut de Batxillerat Montserrat</strong>, Barcelona..<br />
-      </p>
-    </article>
-    <article>
-      <h4 class="title">Otra formación</h4>
-      <p> 
-        <strong>React/Redux avanzado</strong> o en ImaginaGroup<span class="right">2020</span><br />
-        <strong>Angular de cero a experto</strong> en Udemy<span class="right">2017</span><br />
-        <strong>Creación de webapps</strong> en  Barcelona Activa<span class="right">2017</span><br />
-        <strong>Angular JS </strong> en  Barcelona Activa<span class="right">2017</span><br />
-        <strong>Creación de Android apps  </strong> en  Barcelona Activa<span class="right">2012</span><br />
-        <strong>Habilidades directivas</strong> en Barcelona Activa<span class="right">2003</span><br />
-        <strong>Supervisor de sistemas PC</strong>, Barcelona Activa (200h).<span class="right">1995</span><br />
-        <strong>Diseño asistido por ordenador</strong> (AUTOCAD) en CENEC.<span class="right">1992</span><br />
-      </p>
-    </article>
-    <article>
-      <h4 class="title">Idiomas</h4>
-      <p> <strong>Català</strong>: materno<br />
-        <strong>Inglés</strong>: nivel medio (comprensión técnica)<br />
-        <strong>Italiano</strong>: nivel medio.<br />
-        <strong>Sueco</strong>: nivel básico.
-      </p>
-    </article>
+    </section>
 
-    <footer class="print">
-      Adrià Julià Lundgren CV |
-      <a href="mailto:ajl@xarop.com">ajl@xarop.com</a> |
-      <a href="tel:+34 620582626">+34 620 58 26 26</a> |
-      <a href="http://xarop.com">xarop.com</a>
-    </footer>
-
-  </section>
-
-  <section id="page3" class="page">
-
-    <h3>COMPETENCIAS TÉCNICAS</h3>
-    <h4 class="title">Diseño y maquetación</h4>
-    <table class="skill">
-      <!-- <tr>
+    <section id="page3" class="page">
+      <h3>COMPETENCIAS TÉCNICAS</h3>
+      <h4 class="title">Diseño y maquetación</h4>
+      <table class="skill">
+        <!-- <tr>
         <td class="first">Fireworks</td>
         <td><span style="width:90%;"><span></td>
         <td class="last">9/10</td>
       </tr> -->
-      <tr>
-        <td class="first">Photoshop</td>
-        <td><span style="width:80%;"><span></td>
-        <td class="last">8/10</td>
-      </tr>
-      <tr>
-        <td class="first">Illustrator</td>
-        <td><span style="width:70%;"><span></td>
-        <td class="last">7/10</td>
-      </tr>
-      <!-- <tr>
+        <tr>
+          <td class="first">Photoshop</td>
+          <td><span style="width:80%;"><span></td>
+          <td class="last">8/10</td>
+        </tr>
+        <tr>
+          <td class="first">Illustrator</td>
+          <td><span style="width:70%;"><span></td>
+          <td class="last">7/10</td>
+        </tr>
+        <!-- <tr>
     <td class="first">Responsive design</td>
     <td><span style="width:90%;"><span></td>
     <td class="last">9/10</td>
   </tr> -->
-      <tr>
-        <td class="first">Figma / Sketch / XD</td>
-        <td><span style="width:90%;"><span></td>
-        <td class="last">9/10</td>
-      </tr>
-      <!-- <tr>
+        <tr>
+          <td class="first">Figma / Sketch / XD</td>
+          <td><span style="width:90%;"><span></td>
+          <td class="last">9/10</td>
+        </tr>
+        <!-- <tr>
     <td class="first">Flash</td>
     <td><span style="width:80%;"><span></td>
     <td class="last">8/10</td>
   </tr> -->
-    </table>
-    <h4 class="title">Programación</h4>
-    <table class="skill">
-      <tr>
-      <tr>
-        <td class="first">HTML5</td>
-        <td><span style="width:90%;"><span></td>
-        <td class="last">9/10</td>
-      </tr>
-      <tr>
-        <td class="first">CSS3</td>
-        <td><span style="width:90%;"><span></td>
-        <td class="last">9/10</td>
-      </tr>
-      <!-- <tr>
+      </table>
+      <h4 class="title">Programación</h4>
+      <table class="skill">
+        <tr>
+        <tr>
+          <td class="first">HTML5</td>
+          <td><span style="width:90%;"><span></td>
+          <td class="last">9/10</td>
+        </tr>
+        <tr>
+          <td class="first">CSS3</td>
+          <td><span style="width:90%;"><span></td>
+          <td class="last">9/10</td>
+        </tr>
+        <!-- <tr>
     <td class="first">Less</td>
     <td><span style="width:70%;"><span></td>
     <td class="last">7/10</td>
   </tr> -->
-      <tr>
-        <td class="first">Sass / Less</td>
-        <td><span style="width:80%;"><span></td>
-        <td class="last">8/10</td>
-      </tr>
-      <tr>
-        <td class="first">PHP / MySQL</td>
-        <td><span style="width:80%;"><span></td>
-        <td class="last">8/10</td>
-      </tr>
-      <tr>
-        <td class="first">JavaScript</td>
-        <td><span style="width:70%;"><span></td>
-        <td class="last">8/10</td>
-      </tr>
-      <!-- <tr>
+        <tr>
+          <td class="first">Sass / Less</td>
+          <td><span style="width:80%;"><span></td>
+          <td class="last">8/10</td>
+        </tr>
+        <tr>
+          <td class="first">PHP / MySQL</td>
+          <td><span style="width:80%;"><span></td>
+          <td class="last">8/10</td>
+        </tr>
+        <tr>
+          <td class="first">JavaScript</td>
+          <td><span style="width:70%;"><span></td>
+          <td class="last">8/10</td>
+        </tr>
+        <!-- <tr>
         <td class="first">MySQL</td>
         <td><span style="width:60%;"><span></td>
         <td class="last">6/10</td>
       </tr> -->
-      <!-- <tr>
+        <!-- <tr>
     <td class="first">VSCode</td>
     <td><span style="width:90%;"><span></td>
     <td class="last">9/10</td>
   </tr> -->
-      <tr>
-        <td class="first">Git</td>
-        <td><span style="width:80%;"><span></td>
-        <td class="last">8/10</td>
-      </tr>
-    </table>
-    <h4 class="title">Librerias, frameworks y CMS</h4>
-    <table class="skill">
-      <tr>
-        <td class="first">jQuery</td>
-        <td><span style="width:80%;"><span></td>
-        <td class="last">8/10</td>
-      </tr>
-      <tr>
-        <td class="first">Angular</td>
-        <td><span style="width:70%;"><span></td>
-        <td class="last">7/10</td>
-      </tr>
+        <tr>
+          <td class="first">Git</td>
+          <td><span style="width:80%;"><span></td>
+          <td class="last">8/10</td>
+        </tr>
+      </table>
+      <h4 class="title">Librerias, frameworks y CMS</h4>
+      <table class="skill">
+        <tr>
+          <td class="first">jQuery</td>
+          <td><span style="width:80%;"><span></td>
+          <td class="last">8/10</td>
+        </tr>
+        <tr>
+          <td class="first">Angular</td>
+          <td><span style="width:70%;"><span></td>
+          <td class="last">7/10</td>
+        </tr>
 
-      <tr>
-        <td class="first">React</td>
-        <td><span style="width:70%;"><span></td>
-        <td class="last">7/10</td>
-      </tr>
+        <tr>
+          <td class="first">React</td>
+          <td><span style="width:70%;"><span></td>
+          <td class="last">7/10</td>
+        </tr>
 
-      <tr>
-        <td class="first">Bootstrap</td>
-        <td><span style="width:90%;"><span></td>
-        <td class="last">9/10</td>
-      </tr>
-      <tr>
-        <td class="first">Foundation</td>
-        <td><span style="width:70%;"><span></td>
-        <td class="last">7/10</td>
-      </tr>
-      <tr>
-        <td class="first">WordPress</td>
-        <td><span style="width:90%;"><span></td>
-        <td class="last">9/10</td>
-      </tr>
-      <tr>
-        <td class="first">Drupal</td>
-        <td><span style="width:70%;"><span></td>
-        <td class="last">7/10</td>
-      </tr>
-      <tr>
-        <td class="first">Prestashop</td>
-        <td><span style="width:80%;"><span></td>
-        <td class="last">8/10</td>
-      </tr>
-    </table>
-    <p><small>Diseño y prototipado: PhotoShop, Fireworks, Sketch, Illustrator, InDesign, Axure, …<br />
-        Multimedia: Flash/ActionScript, Director/Lingo, Adobe Premiere y otros editores.<br />
-        Dessarrollo web: VS Code, Sublime, Atom, Jira, AWS, GIT, Dreamweaver, HTML, DHTML, CSS, Sass, Less, JavaScript,
-        jQuery, Angular 2+, AngularJS, VueJs, PHP, MySQL.<br />
-        Ofimática: Microsoft Office, Open Office, Google Docs, ..<br />
-        Entornos: PC-Windows, Linux y Apple Macintosh.</small></p>
+        <tr>
+          <td class="first">Bootstrap</td>
+          <td><span style="width:90%;"><span></td>
+          <td class="last">9/10</td>
+        </tr>
+        <tr>
+          <td class="first">Foundation</td>
+          <td><span style="width:70%;"><span></td>
+          <td class="last">7/10</td>
+        </tr>
+        <tr>
+          <td class="first">WordPress</td>
+          <td><span style="width:90%;"><span></td>
+          <td class="last">9/10</td>
+        </tr>
+        <tr>
+          <td class="first">Drupal</td>
+          <td><span style="width:70%;"><span></td>
+          <td class="last">7/10</td>
+        </tr>
+        <tr>
+          <td class="first">Prestashop</td>
+          <td><span style="width:80%;"><span></td>
+          <td class="last">8/10</td>
+        </tr>
+      </table>
+      <p><small>Diseño y prototipado: PhotoShop, Fireworks, Sketch, Illustrator, InDesign, Axure, …<br />
+          Multimedia: Flash/ActionScript, Director/Lingo, Adobe Premiere y otros editores.<br />
+          Dessarrollo web: VS Code, Sublime, Atom, Jira, AWS, GIT, Dreamweaver, HTML, DHTML, CSS, Sass, Less,
+          JavaScript,
+          jQuery, Angular 2+, AngularJS, VueJs, PHP, MySQL.<br />
+          Ofimática: Microsoft Office, Open Office, Google Docs, ..<br />
+          Entornos: PC-Windows, Linux y Apple Macintosh.</small></p>
 
-    <footer>
-      Adrià Julià Lundgren CV |
-      <a href="mailto:ajl@xarop.com">ajl@xarop.com</a> |
-      <a href="tel:+34 620582626">+34 620 58 26 26</a> |
-      <a href="http;//xarop.com">xarop.com</a>
-      <span class="no-print">| <a href="javascript:window.print()">IMPRIMIR</a> | <a href="#">top</a>
-      </span>
-    </footer>
+      <footer>
+        Adrià Julià Lundgren |
+        <a href="mailto:ajl@xarop.com">ajl@xarop.com</a> |
+        <a href="tel:+34 620582626">620 58 26 26</a> |
+        <a href="http;//xarop.com">xarop.com</a>
+        <span class="no-print">| <a href="javascript:window.print()">IMPRIMIR</a> | <a href="#">top</a>
+        </span>
+      </footer>
 
-  </section>
+    </section>
+  </div>
 
 
 

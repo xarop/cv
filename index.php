@@ -395,7 +395,7 @@ function displayAllPosts($posts_count = 5, $excerpt_length = 75) {
 
       <p><strong>Diseñador gráfico y programador multimedia especializado en el diseño de Interficies de Usuario con las
           tecnologias mas actuales:</strong></p>
-      <p><em>Figma, HTML5, CSS3, SASS, JavaScript, jQuery, PHP, React, Angular, VueJS, Python, Bootstrap, Responsive Design,
+      <p><em>Figma, HTML5, CSS3, SASS, JavaScript, API Rest, jQuery, PHP, React, Angular, VueJS, Python, Bootstrap, Responsive Design,
           WordPress, Drupal, SEO, eCommerce, WooCommerce, PrestaShop, SCRUM, GIT, NodeJS, npm</em></p>
 
       <figure style="margin-top:2em;">

@@ -674,10 +674,7 @@ function displayAllPosts($posts_count = 5, $excerpt_length = 75) {
       <p><strong>Implementación de <em>WordPress</em></strong> para <a href="//www.volotea.com/"
           target="_blank">Volotea</a>, <a href="//vuelingnews.com/" target="_blank">Vueling</a>,  <a
           href="//www.activotrade.com/" target="_blank">Activotrade</a>, <a href="//eternwellness.com/"
-          target="_blank">EternWellness</a>,  <a href="//www.ub.edu/mei/">Universitat de Barcelona</a>, y otros
-        proyectos personales como <a href="//www.denenos.com/" target="_blank">denenos.com</a>,<a
-          href="//www.miminipc.com/" target="_blank"> casisi.com</a>, <a href="//www.miminipc.com/"
-          target="_blank">miminipc.com</a> o <a href="//www.diluvi.com/" target="_blank">diluvi.com.</a><br />
+          target="_blank">EternWellness</a>,  <a href="//www.ub.edu/mei/">Universitat de Barcelona</a>.<br />
         <small>WordPress,HTML, CSS, jQuery, PHP...</small>
       </p>
 

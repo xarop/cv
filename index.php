@@ -1014,9 +1014,6 @@ function displayAllPosts($posts_count = 5, $excerpt_length = 75) {
             }
         });
     });
-
-
-
   </script>
 
   <!-- Google tag (gtag.js) -->

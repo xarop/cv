@@ -70,7 +70,7 @@ function displayAllPosts($posts_count = 5, $excerpt_length = 75) {
     rel="stylesheet">
 
   <style type="text/css">
-    .print {
+    .print #gt-nvframe {
       display: none;
     }
 
@@ -171,16 +171,16 @@ function displayAllPosts($posts_count = 5, $excerpt_length = 75) {
       width: 100%;
     }
 
-    .social-links-menu {
+    .icon-menu {
       margin: 1em auto;
       padding: 1em;
     }
 
-    .social-links-menu span {
+    .icon-menu span {
       display: none;
     }
 
-    .social-links-menu li {
+    .icon-menu li {
       display: inline;
       padding: .25em;
     }
@@ -314,6 +314,10 @@ function displayAllPosts($posts_count = 5, $excerpt_length = 75) {
 
     /* Print ----------- */
     @media print {
+
+      #gt-nvframe {
+        display: none;
+      }
       .page {
         margin: 0;
         border: initial;
@@ -385,6 +389,10 @@ function displayAllPosts($posts_count = 5, $excerpt_length = 75) {
       }
     }
   </style>
+  
+
+  <script src="https://rawgit.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
+
 </head>
 
 <body>
@@ -430,7 +438,7 @@ function displayAllPosts($posts_count = 5, $excerpt_length = 75) {
                 class="big">ajl@xarop.com</a></em></strong></li>
         <!-- <a href="//twitter.com/xarop/">@xarop</a> -->
       </ul>
-      <ul id="menu-social" class="social-links-menu">
+      <ul id="menu-social" class="icon-menu">
         <!-- <li><a href="https://twitter.com/xarop"><span>Twitter</span><svg class="svg-icon" width="32" height="32"
               aria-hidden="true" role="img" focusable="false" viewBox="0 0 24 24" version="1.1"
               xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -469,18 +477,19 @@ function displayAllPosts($posts_count = 5, $excerpt_length = 75) {
         <li><a href="#page1"> EXPERIENCIA PROFESIONAL</a></li>
         <li><a href="#page2">FORMACIÓN</a></li>
         <li><a href="#page3">COMPETENCIAS TÉCNICAS</a></li>
-        <!-- <li>
-          <a href="ajlcv.pdf" target="_blank">Descargar PDF</a>
-        </li>
-        <li>
-          <a href="javascript:window.print()">IMPRIMIR</a>
-        </li> -->
       </ul>
 
-      <ul id="menu-print" class="social-links-menu no-print">
+      <ul id="menu-print" class="icon-menu no-print">
 
         <li>
-          <a href="ajlcv.pdf" target="_blank" title="Descargar PDF"><span>Descargar PDF</span>
+          <a href="https://xarop-com.translate.goog/cv/?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=ca&_x_tr_pto=wapp" target="_blank" title="Translate"><span>Translate</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path fill="currentColor" d="M27.85 29H30l-6-15h-2.35l-6 15h2.15l1.6-4h6.85zm-7.65-6l2.62-6.56L25.45 23zM18 7V5h-7V2H9v3H2v2h10.74a14.71 14.71 0 0 1-3.19 6.18A13.5 13.5 0 0 1 7.26 9h-2.1a16.47 16.47 0 0 0 3 5.58A16.84 16.84 0 0 1 3 18l.75 1.86A18.47 18.47 0 0 0 9.53 16a16.92 16.92 0 0 0 5.76 3.84L16 18a14.48 14.48 0 0 1-5.12-3.37A17.64 17.64 0 0 0 14.8 7z"/></svg>
+          </a>
+        </li>
+
+
+        <li>
+          <a id="printToPdf" href="javascript:;" target="_blank" title="Descargar PDF"><span>Descargar PDF</span>
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
               <path fill="currentColor"
                 d="M30 18v-2h-6v10h2v-4h3v-2h-3v-2zm-11 8h-4V16h4a3.003 3.003 0 0 1 3 3v4a3.003 3.003 0 0 1-3 3m-2-2h2a1.001 1.001 0 0 0 1-1v-4a1.001 1.001 0 0 0-1-1h-2zm-6-8H6v10h2v-3h3a2.003 2.003 0 0 0 2-2v-3a2.002 2.002 0 0 0-2-2m-3 5v-3h3l.001 3z" />
@@ -490,13 +499,13 @@ function displayAllPosts($posts_count = 5, $excerpt_length = 75) {
         </li>
 
         <li>
-          <a href="javascript:window.print()" title="Imprimir"><span>Imprimir</span>
+          <a id="printButton" href="javascript:;" title="Imprimir"><span>Imprimir</span>
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
               <path fill="currentColor"
                 d="M24 6.5V8h1a5 5 0 0 1 5 5v7.5a3.5 3.5 0 0 1-3.5 3.5H25v1.5a3.5 3.5 0 0 1-3.5 3.5h-11A3.5 3.5 0 0 1 7 25.5V24H5.5A3.5 3.5 0 0 1 2 20.5V13a5 5 0 0 1 5-5h1V6.5A3.5 3.5 0 0 1 11.5 3h9A3.5 3.5 0 0 1 24 6.5m-14 0V8h12V6.5A1.5 1.5 0 0 0 20.5 5h-9A1.5 1.5 0 0 0 10 6.5m-1 19a1.5 1.5 0 0 0 1.5 1.5h11a1.5 1.5 0 0 0 1.5-1.5v-6a1.5 1.5 0 0 0-1.5-1.5h-11A1.5 1.5 0 0 0 9 19.5zM25 22h1.5a1.5 1.5 0 0 0 1.5-1.5V13a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7.5A1.5 1.5 0 0 0 5.5 22H7v-2.5a3.5 3.5 0 0 1 3.5-3.5h11a3.5 3.5 0 0 1 3.5 3.5z" />
-            </svg> </a>
+            </svg> 
+          </a>
         </li>
-
 
       </ul>
 
@@ -975,9 +984,7 @@ function displayAllPosts($posts_count = 5, $excerpt_length = 75) {
         <a href="mailto:ajl@xarop.com">ajl@xarop.com</a> |
         <a href="tel:+34 620582626">620 58 26 26</a> |
         <a href="//xarop.com">xarop.com</a>
-        <span class="no-print">
-          | 
-          <!-- <a href="javascript:window.print()">IMPRIMIR</a> |  -->
+        <span class="no-print"> | 
           <a href="#">top</a>
         </span>
       </footer>
@@ -986,7 +993,31 @@ function displayAllPosts($posts_count = 5, $excerpt_length = 75) {
   </div>
 
 
+  <script>
+    document.getElementById('printButton').addEventListener('click', function() {
+      window.print();
+    });
 
+    document.getElementById('printToPdf').addEventListener('click', function() {
+        // Use html2pdf library to convert the current webpage to PDF
+        html2pdf(document.body, {
+            margin: 10,
+            filename: 'ajlcv.pdf',
+            image: { type: 'jpeg', quality: 0.98 },
+            html2canvas: { scale: 2 },
+            jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
+            // Inject print styles directly into the generated PDF
+            onBeforeCreate: function (pdf) {
+                pdf.internal.addHTML(document.body.outerHTML, function() {
+                    // Add additional processing if needed
+                });
+            }
+        });
+    });
+
+
+
+  </script>
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1298554-2"></script>
@@ -994,7 +1025,6 @@ function displayAllPosts($posts_count = 5, $excerpt_length = 75) {
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'UA-1298554-2');
   </script>
 

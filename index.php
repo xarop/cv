@@ -566,14 +566,20 @@ function displayAllPosts($posts_count = 5, $excerpt_length = 75) {
         <small>Responsive design, WordPress, ACF, Polylang, Bootstrap 4, HTML5, CSS3, jQuery, PHP...</small>
       </p> -->
 
-      <p><strong>Diseño y desarrollo de diversos sites bajo el CMS WordPress</strong> <br />
-        <strong><a href="//junglemows.com" target="_blank">JungleMows.com</a></strong>: Diseño, maquetación <em>ecommerce</em>.<br />
-        <strong><a href="//ub.edu/mei" target="_blank">ub.edu.mei</a></strong>: Diseño, maquetación y programación del
-        website adaptativo para la Universitat de Barcelona<br />
-        <strong><a href="//beedataanalytics.com/" target="_blank">beedataanalytics.com/</a></strong>: Web
-        corporativa<br />
-        <strong><a href="//www.garatgejca.eu/" target="_blank">garatgeJCA.eu</a></strong>: Diseño, maquetación y
-        programación del website adaptativo de comercio local.<br />
+      <p>
+        <strong>Diseño y desarrollo de diversos sites bajo el CMS WordPress</strong> <br />
+        
+        <a href="//junglemows.com" target="_blank">JungleMows.com</a> 
+        <small>Diseño, maquetación <em>ecommerce</em>.https://xarop.com/cv/</small><br />
+        <a href="memorimage.reus.cat/" target="_blank">memorimage.reus.cat</a> 
+        <small>Rediseño de la web del Festival de cine de Reus.</small><br />
+        <a href="//beedataanalytics.com" target="_blank">beedataanalytics.com/</a> 
+        <small>Web corporativa en WordPress</small><br />
+        <a href="//www.garatgejca.eu" target="_blank">garatgeJCA.eu</a> 
+        <small>Diseño, maquetación y programación del website adaptativo de comercio local.</small><br />
+        <a href="//ub.edu/mei" target="_blank">ub.edu.mei</a> 
+        <small>Diseño, maquetación y programación del website adaptativo para la Universitat de Barcelona</small><br />
+
         <small>Figma, WordPress, Woocommerce, ACF, Polylang, GoogleMaps Api, HTML, CSS/SASS, jQuery, PHP, Git, Guthenberg, Ultimate Members, Vimeo, ...</small>
       </p>
 

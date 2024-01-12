@@ -1,6 +1,8 @@
 <header id="page0" class="page">
-    <h1 class="title">Adrià Julià Lundgren<span>currículum vitae</span></h1>
+  <h1 class="title">Adrià Julià Lundgren<span>currículum vitae</span></h1>
 
+  <div class="row">
+    
     <div class="intro">
       <h2>UI/UX designer & FrontEnd Developer</h2>
 
@@ -22,10 +24,10 @@
         </label>
       </figure>
 
-      <?php //displayAllPosts();?>
-
-
+      <?php displayAllPosts();?>
     </div>
+    
+    
     <nav class="sidebar">
       <figure>
         <img title="Adrià Julià Lundgren" src="//xarop.com/cv/ajl.jpg" alt="Adrià Julià Lundgren" />
@@ -118,5 +120,7 @@
 
 
     </nav>
+
+  </div>
 
   </header>

@@ -112,6 +112,11 @@ nav li {
   width: 100%;
 }
 
+.data li{
+  display: flex;
+  justify-content: space-between;
+}
+
 .social-links-menu {
   margin: 1em auto;
   padding: 1em;
@@ -161,6 +166,7 @@ nav li {
   padding-left: 0;
   padding-top: 2em;
   margin-top: 2em;
+  padding-left: 40px;
 }
 
 .sidebar figure {
@@ -231,6 +237,7 @@ table.skill td span {
 
 .row {
   display: flex;
+  justify-content: space-between;
   gap: 4em;
 }
 
@@ -327,6 +334,7 @@ small {
   .sidebar {
     border: none;
     width: 100%;
+    padding: 0;
   }
 
 

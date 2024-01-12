@@ -32,7 +32,7 @@
       <figure>
         <img title="Adrià Julià Lundgren" src="//xarop.com/cv/ajl.jpg" alt="Adrià Julià Lundgren" />
       </figure>
-      <ul>
+      <ul class="data">
         <li><small>Nacido el: </small>11/09/1968</li>
         <li><small>Residencia: </small>Barcelona</li>
         <li><small>Tel: </small><a href="tel:+34 620582626" target="_blank" class="big">+34 <strong>620 58 26

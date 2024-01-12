@@ -102,7 +102,6 @@ small {
 
 nav ul {
   padding: 1em;
-  display: table;
   margin: 0 auto;
 }
 
@@ -116,6 +115,7 @@ nav li {
 .social-links-menu {
   margin: 1em auto;
   padding: 1em;
+  display: table;
 }
 
 .social-links-menu span {

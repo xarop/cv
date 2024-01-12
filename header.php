@@ -6,7 +6,7 @@
     <div class="intro">
       <h2>UI/UX designer & FrontEnd Developer</h2>
 
-      <p><strong>Diseñador gráfico y programador multimedia especializado en el diseño yde Interficies de Usuario y maquetación y programación con las
+      <p><strong>Diseñador gráfico y programador multimedia especializado en el diseño de Interficies de Usuario, maquetación y programación con las
           tecnologias mas actuales:</strong></p>
       <p><em><strong>Figma</strong>, HTML5, CSS3, SASS, <strong>JavaScript</strong>, API Rest, jQuery, PHP, React, Angular, VueJS, tailwindcss, Bootstrap, Responsive Design,
           <strong>WordPress</strong>, Drupal, SEO, eCommerce, WooCommerce, PrestaShop, SCRUM, <strong>GIT</strong>, NodeJS, npm</em></p>

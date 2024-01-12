@@ -324,6 +324,7 @@ function displayAllPosts($posts_count = 5, $excerpt_length = 75) {
         background: initial;
         page-break-after: always;
         overflow: hidden;
+        position: relative;
       }
 
 
@@ -340,9 +341,6 @@ function displayAllPosts($posts_count = 5, $excerpt_length = 75) {
         line-height: 1.2;
       }
 
-      .page {
-        position: relative;
-      }
 
       footer {
         position: absolute;
@@ -418,7 +416,7 @@ function displayAllPosts($posts_count = 5, $excerpt_length = 75) {
     </div>
     <nav class="sidebar">
       <figure>
-        <img title="Adrià Julià Lundgren" src="//xarop.com/cv/ajl0.jpg" alt="Adrià Julià Lundgren" />
+        <img title="Adrià Julià Lundgren" src="//xarop.com/cv/ajl.jpg" alt="Adrià Julià Lundgren" />
       </figure>
       <ul>
         <li><small>Nacido el: </small>11/09/1968</li>

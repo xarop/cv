@@ -75,10 +75,13 @@ function displayAllPosts($posts_count = 5, $excerpt_length = 75) {
 </head>
 
 <body>
+  <?php include_once('whatsapp.php'); ?>
   <?php include_once('header.php'); ?>
   <main>
   <?php include_once('content.php'); ?>
   </main>
+
+  
 
   <script>
     document.getElementById('printButton').addEventListener('click', function() {

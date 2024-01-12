@@ -1,5 +1,3 @@
-
-
 .page {
   margin: 0;
   width: initial;
@@ -42,7 +40,6 @@ figure {
 
 label {
   display: block;
-  font-size: .75em;
 }
 
 img {
@@ -261,7 +258,7 @@ small {
   margin-top: 1em;
 }
 
-@media screen  {
+@media screen {
   body {
     font-size: 14px;
   }
@@ -277,7 +274,8 @@ small {
     height: 20px;
     padding: 5px;
     text-align: center;
-}
+  }
+
   .print {
     display: none;
   }
@@ -324,15 +322,37 @@ small {
     display: block;
   }
 
-  .intro {
-    
-  }
+  .intro {}
 
   .sidebar {
     border: none;
     width: 100%;
   }
 
- 
 
+}
+
+
+#whatsapp-widget {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #25d366;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+#whatsapp-widget a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+#whatsapp-widget img {
+  width: 30px;
+  height: 30px;
 }

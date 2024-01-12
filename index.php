@@ -1,10 +1,14 @@
 <?php
 
-function displayAllPosts($posts_count = 5, $excerpt_length = 75) {
+function displayPostsByCategory($posts_count = 5, $excerpt_length = 75, $category = '') {
     $base_url = 'https://xarop.com/wp-json/wp/v2/';
 
-    // Construct the API endpoint URL for all posts
+    // Construct the API endpoint URL with category parameter
     $api_url = $base_url . 'posts?per_page=' . $posts_count;
+
+    if (!empty($category)) {
+        $api_url .= '&category_name=' . urlencode($category);
+    }
 
     // Initialize cURL session
     $ch = curl_init($api_url);
@@ -32,7 +36,7 @@ function displayAllPosts($posts_count = 5, $excerpt_length = 75) {
     }
     echo '<h4> </h4>';
 
-    // Display all posts
+    // Display posts
     foreach ($posts as $post) {
         echo '<p class="post"><a href="' . $post->link . '" target="_blank">';
         echo '<strong>' . $post->title->rendered . '</strong><br/>';
@@ -43,10 +47,11 @@ function displayAllPosts($posts_count = 5, $excerpt_length = 75) {
     }
 }
 
-// Example usage to fetch and display all posts
-//displayAllPosts();
+// Example usage to fetch and display posts from a specific category
+// displayPostsByCategory(5, 75, 'your-category-slug');
 
 ?>
+
 
 
 

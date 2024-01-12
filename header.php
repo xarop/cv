@@ -24,7 +24,7 @@
         </a>
       </figure>
 
-      <?php displayAllPosts();?>
+      <?php displayPostsByCategory();?>
     </div>
     
     

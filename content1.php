@@ -1,107 +1,90 @@
 <section id="experience" class="page">
-    <h3>EXPERIENCIA PROFESIONAL</h3>
+    <h3>PROFESSIONAL EXPERIENCE</h3>
 
     <article>
 
-      <h4 class="title">Freelance<span>2019 – actualidad</span></h4>
+        <h4 class="title">Freelance<span>2019 – Present</span></h4>
 
-      <p><strong>FrontEnd developer en BeeData analytics</strong> 
-        (<a href="//beedataanalytics.com/" target="_blank">beedataanalytics.com</a>)<br />
-        Desarrollo FrontEnd en la generación de informes personalizadosen PDF para diversas compañias eléctricas, así
-        como el desarrollo de la web coorporativa y diversas <em>webapps</em>
-        <br />
-        <small>BigData, Figma, HTML, CSS/SASS, jQuery, D3, Python, Git, React, PDF, Responsive design, WordPress, ACF,
-          Polylang.</small>
-      </p>
+        <p><strong>FrontEnd Developer at BeeData Analytics</strong>
+            (<a href="//beedataanalytics.com/" target="_blank">beedataanalytics.com</a>)<br />
+            UI/UX design and prototyping for the custom PDF report generation application for various electric companies,
+            as well as the design and development of the corporate website and various web apps.
+            <br />
+            <small>BigData, Figma, HTML, CSS/SASS, D3, Python, Git, React, PDF, Responsive design, WordPress, ACF,
+                Polylang.</small>
+        </p>
 
-      <p><strong>FrontEnd developer para Editorial Planeta</strong> 
-        (<a href="//www.casadellibro.com/" target="_blank">casadellibro.com</a> y <a href="//www.eae.es/"
-          target="_blank">eae.es</a>)<br />
-        Implementación de los nuevos websites de la Casa del Libro y de la EAE Business School.
-        <br />
-        <small>HTML5, CSS/SASS, JavaScript, VueJS, Drupal, PHP, Symfony, Twig, ...</small>
-      </p>
+        <p><strong>UI/UX and FrontEnd Developer for Editorial Planeta</strong>
+            (<a href="//www.casadellibro.com/" target="_blank">casadellibro.com</a> and <a href="//www.eae.es/"
+                target="_blank">eae.es</a>)<br />
+            Implementation of the new websites for Casa del Libro and EAE Business School.
+            <br />
+            <small>Figma, Invision, HTML5, CSS/SASS, JavaScript, VueJS, Drupal, PHP, Symfony, Twig, ...</small>
+        </p>
 
-      <!-- 
-        <p><strong>Diseño y desarrollo del <em>website</em> Learning By Docs</strong> 
-        (<a href="//edu.docsbarcelona.com/" target="_blank">edu.docsbarcelona.com</a>)<br />
-        Diseño, maquetación y programación del <em>website</em> adaptativo con áre privada y gestion de miembros. <br />
-        <small>Responsive design, WordPress, ACF, Polylang, HTML5, CSS3, jQuery, PHP, Git, Guthenberg, Ultimate Members,
-          Vimeo, ...</small>
-      </p>
+        <p><strong>FrontEnd Developer at SomMobilitat</strong>
+            (<a href="//www.sommobilitat.coop" target="_blank">sommobilitat.coop</a>)<br />
+            FrontEnd development with WordPress.
+            <br />
+            <small>Responsive design, Figma, WordPress, ACF, HTML5, CSS3, jQuery, PHP, Git, GoogleMaps, Caldera Forms
+                ...</small>
+        </p>
 
-      <p><strong>Diseño y desarrollo del <em>website</em> Garatge JCA</strong> 
-        (<a href="//www.garatgejca.eu/wp/" target="_blank">garatgejca.eu</a>)<br />
-        Diseño, maquetación y programación del <em>website</em> adaptativo. <br />
-        <small>Responsive design, WordPress, ACF, Polylang, HTML5, CSS3, jQuery, PHP, Git, Guthenberg, ...</small>
-      </p> 
-      -->
+        <p><strong>Design and development of various sites under CMS WordPress</strong> <br />
 
-      <p><strong><em>FrontEnd developer</em> en SomMobilitat</strong> 
-        (<a href="//www.sommobilitat.coop" target="_blank">sommobilitat.coop</a>)<br />
-        Desarrollo FrontEnd con <em>WordPress</em>. <br />
-        <small>Responsive design, WordPress, ACF, HTML5, CSS3, jQuery, PHP, Git, GoogleMaps, Caldera Forms ...</small>
-      </p>
-      <!-- 
-      <p><strong>Diseño y desarrollo del <em>website</em> del Master de Estudios internacionales de la Universitat de
-          Barcelona</strong> 
-        (<a href="//ub.edu/mei" target="_blank">ub.edu.mei</a>)<br />
-        Diseño, maquetación y programación del <em>website</em> adaptativo. <br />
-        <small>Responsive design, WordPress, ACF, Polylang, Bootstrap 4, HTML5, CSS3, jQuery, PHP...</small>
-      </p> -->
+            <a href="//junglemows.com" target="_blank">JungleMows.com</a>
+            <small>E-commerce design, layout. https://xarop.com/cv/</small><br />
+            <a href="memorimage.reus.cat/" target="_blank">memorimage.reus.cat</a>
+            <small>Redesign of the Reus Film Festival website.</small><br />
+            <a href="//beedataanalytics.com" target="_blank">beedataanalytics.com/</a>
+            <small>Corporate website in WordPress</small><br />
+            <a href="//www.garatgejca.eu" target="_blank">garatgeJCA.eu</a>
+            <small>Design, layout, and programming of the adaptive local commerce website.</small><br />
+            <a href="//ub.edu/mei" target="_blank">ub.edu.mei</a>
+            <small>Design, layout, and programming of the adaptive website for the University of Barcelona</small><br />
 
-      <p>
-        <strong>Diseño y desarrollo de diversos sites bajo el CMS WordPress</strong> <br />
-        
-        <a href="//junglemows.com" target="_blank">JungleMows.com</a> 
-        <small>Diseño, maquetación <em>ecommerce</em>.https://xarop.com/cv/</small><br />
-        <a href="memorimage.reus.cat/" target="_blank">memorimage.reus.cat</a> 
-        <small>Rediseño de la web del Festival de cine de Reus.</small><br />
-        <a href="//beedataanalytics.com" target="_blank">beedataanalytics.com/</a> 
-        <small>Web corporativa en WordPress</small><br />
-        <a href="//www.garatgejca.eu" target="_blank">garatgeJCA.eu</a> 
-        <small>Diseño, maquetación y programación del website adaptativo de comercio local.</small><br />
-        <a href="//ub.edu/mei" target="_blank">ub.edu.mei</a> 
-        <small>Diseño, maquetación y programación del website adaptativo para la Universitat de Barcelona</small><br />
-
-        <small>Figma, WordPress, Woocommerce, ACF, Polylang, GoogleMaps Api, HTML, CSS/SASS, jQuery, PHP, Git, Guthenberg, Ultimate Members, Vimeo, ...</small>
-      </p>
-
-
+            <small>Figma, WordPress, Woocommerce, ACF, Polylang, GoogleMaps Api, HTML, CSS/SASS, jQuery, PHP, Git,
+                Gutenberg, Ultimate Members, Vimeo, ...</small>
+        </p>
     </article>
 
     <article>
-      <h4 class="title">FrontEnd developer en Newshore <span>2017 – 2020</span></h4>
+        <h4 class="title">FrontEnd UI/UX and Developer at Newshore <span>2017 – 2020</span></h4>
 
-      <p><strong><em>Front End designer & developer</em> para Vueling</strong> 
-        (<a href="//vueling.com" target="_blank">vueling.com</a>)<br />
-        Maquetación y programación del <em>Front End</em> en varios proyectos web y <em>webapps</em> en un equipo
-        multidisciplinar y con metodologias <em>agile</em>. <br />
-        <small>Angular 2+, VueJS, SASS, Node, GIT, SCRUM, Jira, MS Teams, Azure, ...</small>
-      </p>
-    </article>
+        <p><strong>FrontEnd UI/UX designer & developer for Vueling</strong>
+            (<a href="//vueling.com" target="_blank">vueling.com</a>)<br />
+            Layout and programming of the Front End in various web projects and web apps in a multidisciplinary and
+            agile methodologies team.
+            <br />
+            <small>Angular 2+, VueJS, SASS, Node, GIT, SCRUM, Jira, MS Teams, Azure, ...</small>
+        </p>
+
 
     <article>
 
-      <h4 class="title">Freelance<span>2009 – 2019</span></h4>
+        <h4 class="title">Freelance<span>2009 – 2019</span></h4>
 
-      <p class="no-print"><strong>Desarrollo de diversas <em>LandingPages</em> de campañas publicitarias:</strong><br />
-        <a href="//oakleycantstopchallenge.es" target="_blank">oakleycantstopchallenge.es</a>
-        <small><em>LandingPage</em> realizada con el <em>Feramework</em> CodeIgniter..</small><br />
-        <a href="//www.gallopastalover.es" target="_blank">gallopastalover.es</a>
-        <small><em>OnePage</em> con animaciones Jquery/CSS3 y videos en background.</small><br />
-        <a href="//www.ayondosocialtrading.com" target="_blank">ayondosocialtrading.com</a>
-        <small><em>MicroSite</em> con parte privada que requiere un registro de usuarios.</small><br />
-        <small>Responsive design, WordPress, CodeIgniter, Bootstrap 4, HTML5, CSS3, jQuery, PHP...</small>
-      </p>
+        <p class="no-print"><strong>Design and development of various LandingPages for advertising campaigns:</strong><br />
+            <a href="//oakleycantstopchallenge.es" target="_blank">oakleycantstopchallenge.es</a>
+            <small>LandingPage made with the CodeIgniter framework.</small><br />
+            <a href="//www.gallopastalover.es" target="_blank">gallopastalover.es</a>
+            <small>OnePage with Jquery/CSS3 animations and background videos.</small><br />
+            <a href="//www.ayondosocialtrading.com" target="_blank">ayondosocialtrading.com</a>
+            <small>MicroSite with a private section that requires user registration.</small><br />
+            <small>Responsive design, WordPress, CodeIgniter, Bootstrap 4, HTML5, CSS3, jQuery, PHP...</small>
+        </p>
 
-      <p><strong>Diseño y desarrollo del <em>website</em> de la agencia de viajes online</strong> (<a
-          href="//www.levoyageurmediterraneen.com" target="_blank">levoyageurmediterraneen.com</a>)<br />
-        Diseño, maquetación y programación del <em>website</em> adaptativo. <br />
-        <small>Responsive design, WordPress, ACF, Polylang, Bootstrap 4, HTML5, CSS3, jQuery, PHP...</small>
-      </p>
+        <p><strong>Design and development of the website for the online travel agency</strong> (<a
+                href="//www.levoyageurmediterraneen.com" target="_blank">levoyageurmediterraneen.com</a>)<br />
+            Design, layout, and programming of the adaptive website.
+            <br />
+            <small>Responsive design, WordPress, ACF, Polylang, Bootstrap 4, HTML5, CSS3, jQuery, PHP...</small>
+        </p>
 
-      <p><strong>Diseño y desarrollo del <em>website</em> del memorimage Festival de Reus</strong> (<a
+      
+    </article>
+
+    <p><strong>Diseño y desarrollo del <em>website</em> del memorimage Festival de Reus</strong> (<a
           href="//memorimage.reus.cat/" target="_blank">memorimagefestival.org</a>)<br />
         Diseño, maquetación y programación del <em>website</em> adaptativo y multilingue. <br />
         <small>Responsive design, WordPress, ACF, Polylang, Bootstrap 4, HTML5, CSS3, jQuery, PHP...</small>
@@ -476,3 +459,5 @@
 
     </section>
   </div>
+
+

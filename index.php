@@ -1,4 +1,6 @@
 <?php
+if($_GET["v"]) $version=$_GET["v"];
+else $version='';
 
 function displayPostsByCategory($posts_count = 5, $excerpt_length = 75, $category = '') {
     $base_url = 'https://xarop.com/wp-json/wp/v2/';
@@ -83,7 +85,7 @@ function displayPostsByCategory($posts_count = 5, $excerpt_length = 75, $categor
   <?php include_once('whatsapp.php'); ?>
   <?php include_once('header.php'); ?>
   <main>
-  <?php include_once('content.php'); ?>
+  <?php include_once('content'.$version.'.php'); ?>
   </main>
 
   

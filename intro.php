@@ -9,7 +9,7 @@
             <strong>Figma</strong>,
             HTML5, CSS3, SASS, 
             <strong>JavaScript</strong>, 
-            API Rest, jQuery, PHP, React, Angular, VueJS, tailwindcss, Bootstrap, Responsive Design,
+            API Rest, jQuery, PHP, Python, React, Angular, VueJS, tailwindcss, Bootstrap, Responsive Design,
             <strong>WordPress</strong>, 
             Drupal, SEO, eCommerce, WooCommerce, PrestaShop, SCRUM, 
             <strong>GIT</strong>, 

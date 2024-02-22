@@ -328,6 +328,11 @@
       <h3>COMPETENCIAS TÉCNICAS</h3>
       <h4 class="title">Diseño y maquetación</h4>
       <table class="skill">
+        <tr>
+          <td class="first">Figma / Sketch / XD</td>
+          <td><span style="width:90%;"><span></td>
+          <td class="last">9/10</td>
+        </tr>
         <!-- <tr>
           <td class="first">Fireworks</td>
           <td><span style="width:90%;"><span></td>
@@ -340,19 +345,15 @@
         </tr>
         <tr>
           <td class="first">Illustrator</td>
-          <td><span style="width:70%;"><span></td>
-          <td class="last">7/10</td>
+          <td><span style="width:80%;"><span></td>
+          <td class="last">8/10</td>
         </tr>
         <!-- <tr>
           <td class="first">Responsive design</td>
           <td><span style="width:90%;"><span></td>
           <td class="last">9/10</td>
        </tr> -->
-        <tr>
-          <td class="first">Figma / Sketch / XD</td>
-          <td><span style="width:90%;"><span></td>
-          <td class="last">9/10</td>
-        </tr>
+        
         <!-- <tr>
           <td class="first">Flash</td>
           <td><span style="width:80%;"><span></td>
@@ -383,7 +384,7 @@
           <td class="last">8/10</td>
         </tr>
         <tr>
-          <td class="first">PHP / MySQL</td>
+          <td class="first">PHP</td>
           <td><span style="width:80%;"><span></td>
           <td class="last">8/10</td>
         </tr>
@@ -392,12 +393,17 @@
           <td><span style="width:70%;"><span></td>
           <td class="last">8/10</td>
         </tr>
-        <!-- 
+        <tr>
+          <td class="first">Python</td>
+          <td><span style="width:60%;"><span></td>
+          <td class="last">6/10</td>
+        </tr>
+       
         <tr>
           <td class="first">MySQL</td>
           <td><span style="width:60%;"><span></td>
           <td class="last">6/10</td>
-        </tr> -->
+        </tr> 
           <!-- <tr>
           <td class="first">VSCode</td>
           <td><span style="width:90%;"><span></td>
@@ -429,16 +435,18 @@
           <td class="last">6/10</td>
         </tr>
 
+        
+
         <tr>
           <td class="first">Bootstrap</td>
           <td><span style="width:90%;"><span></td>
           <td class="last">9/10</td>
         </tr>
-        <tr>
+        <!-- <tr>
           <td class="first">Foundation</td>
           <td><span style="width:70%;"><span></td>
           <td class="last">7/10</td>
-        </tr>
+        </tr> -->
         <tr>
           <td class="first">WordPress</td>
           <td><span style="width:90%;"><span></td>
@@ -457,9 +465,7 @@
       </table>
       <p><small>Diseño y prototipado: Figma, PhotoShop, Fireworks, Sketch, Illustrator, InDesign, Axure, …<br />
           Multimedia: Flash/ActionScript, Director/Lingo, Adobe Premiere y otros editores.<br />
-          Dessarrollo web: VS Code, Sublime, Atom, Jira, AWS, GIT, Dreamweaver, HTML, DHTML, CSS, Sass, Less,
-          JavaScript,
-          jQuery, Angular, React, VueJs, PHP, MySQL.<br />
+          Dessarrollo web: VS Code, Sublime, Atom, Jira, AWS, GIT, Dreamweaver, HTML, DHTML, CSS, Sass, Less, JavaScript, jQuery, Angular, React, VueJs, PHP, Python, MySQL.<br />
           Ofimática: Microsoft Office, Open Office, Google Docs, ..<br />
           Entornos: PC-Windows, Linux y Apple Macintosh.</small></p>
 

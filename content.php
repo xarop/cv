@@ -55,7 +55,7 @@
         
         <a href="//junglemows.com" target="_blank">JungleMows.com</a> 
         <small>Diseño, maquetación <em>ecommerce</em>.https://xarop.com/cv/</small><br />
-        <a href="memorimage.reus.cat/" target="_blank">memorimage.reus.cat</a> 
+        <a href="//memorimage.reus.cat/" target="_blank">memorimage.reus.cat</a> 
         <small>Rediseño de la web del Festival de cine de Reus.</small><br />
         <a href="//beedataanalytics.com" target="_blank">beedataanalytics.com/</a> 
         <small>Web corporativa en WordPress</small><br />

@@ -1,7 +1,8 @@
 <div class="intro" style="font-size: 18px;  color: #666;  font-weight: 400;">
-    <h2>UI/UX designer & FrontEnd Developer</h2>
+    <h2>UX Engineer</h2>
+    <h3>UI/UX designer & FrontEnd Developer</h3>
     <p>
-        <strong>Diseñador gráfico y programador multimedia especializado en el diseño de Interficies de Usuario, maquetación y programación con las tecnologias mas actuales:</strong>
+    <strong>Como ingeniero UX, mi trabajo combina los principios del diseño grafico y de la experiencia de usuario con tareas de desarrollo y programación con las tecnologias mas actuales:</strong>
     </p>
 
     <p>

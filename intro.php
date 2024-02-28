@@ -1,8 +1,8 @@
 <div class="intro" style="font-size: 18px;  color: #666;  font-weight: 400;">
     <h2>UX Engineer</h2>
-    <h3>UI/UX designer & FrontEnd Developer</h3>
+    <h3><em>UI/UX designer & FrontEnd Developer</em></h3>
     <p>
-    <strong>Como ingeniero UX, mi trabajo combina los principios del diseño grafico y de la experiencia de usuario con tareas de desarrollo y programación con las tecnologias mas actuales:</strong>
+    <strong>Mi formación y trayectoria profesional combinan los principios del diseño grafico y de la experiencia de usuario con tareas de desarrollo y programación.</strong>
     </p>
 
     <p>

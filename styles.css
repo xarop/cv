@@ -103,6 +103,7 @@ small {
 nav ul {
   padding: 1em;
   margin: 0 auto;
+  width: 100%;
 }
 
 nav li {
@@ -112,7 +113,7 @@ nav li {
   width: 100%;
 }
 
-.data li{
+.data li {
   display: flex;
   justify-content: space-between;
 }

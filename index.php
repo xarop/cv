@@ -24,7 +24,7 @@
 <body>
   <header id="page0">
     <div class="container">
-      <h1 class="title">Adrià Julià Lundgren<span>curriculum vitae</span></h1>
+      <h1 class="title">Adrià Julià Lundgren<span>Curriculum Vitae</span></h1>
 
       <div class="row">
 
@@ -64,7 +64,7 @@
         </section>
 
 
-        <aside class="sidebar">
+        <aside>
           <figure>
             <img title="Adrià Julià Lundgren" src="//xarop.com/cv/ajl.jpg" alt="Adrià Julià Lundgren" />
           </figure>
@@ -135,7 +135,7 @@
             </li>
 
             <li>
-              <a href="letter.html" target="_blank" title="Cover Letter"><span>Cover Letter</span>
+              <a href="letter.php?for=<?php echo $target_key; ?>" title="Cover Letter"><span>Cover Letter</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
                   <path fill="currentColor"
                     d="M28 8h-4V6c0-1.1-.9-2-2-2H10c-1.1 0-2 .9-2 2v2H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h24c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zM10 6h12v2H10V6zm18 18H4V10h24v14z" />
@@ -169,7 +169,7 @@
 
           <h4 class="title">Senior Web Engineer | xarop.com<span>2019 – Present</span></h4>
 
-          <p><strong>Architecting foundational systems for large-scale enterprise platforms:</strong><br />
+          <p><strong>Architecting foundational systems for large-scale enterprise platforms at ByteBerry Studio:</strong><br />
             Technical strategy and development of robust corporate ecosystems.<br />
             <strong><a href="https://ccib.es" target="_blank">ccib.es</a>:</strong> Complex multilingual
             architecture for the Barcelona International Convention Centre.<br />

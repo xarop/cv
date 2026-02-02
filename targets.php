@@ -62,6 +62,26 @@ $targets = [
             'I have a proven track record in managing complex <strong>multilingual platforms</strong> using Polylang and WPML, ensuring that large-scale sites remain performant and easy to manage across dozens of regions. Furthermore, my experience with the <strong>REST API</strong> allows me to integrate WordPress into broader technical stacks, whether for decoupled front-ends or complex third-party data synchronizations.',
             'I don’t just build websites; I engineer scalable digital products that bridge the gap between sophisticated design and technical excellence. I am eager to bring my deep WordPress knowledge to your most challenging projects.'
         ]
+    ],
+
+    'uiux' => [
+        'company' => 'Ecommerce UX/UI Designer',
+        'intro_title' => 'UX/UI Designer - Ecommerce Specialist',
+        'intro_bio' => 'Senior UX/UI Designer with 20+ years of experience creating high-conversion digital experiences. Expert in ecommerce design, user experience architecture, and design systems.',
+        'intro_bio_2' => 'Specialized in <strong>Ecommerce Optimization</strong>, creating intuitive shopping experiences that balance aesthetics, usability, and conversion. Deep expertise in product pages, checkout flows, and navigation architecture.',
+        'intro_bio_3' => 'Master of <strong>Figma</strong> and modern <strong>UX methodologies</strong>. I create comprehensive design systems that ensure visual consistency and scalability across complex digital platforms.',
+        'intro_bio_4' => 'Strategic bridge between <strong>Design and Development</strong>. Expert in collaborating with engineering teams to implement designs that are both beautiful and technically feasible, with working knowledge of HTML/CSS.',
+        'tech_stack' => '<strong>Figma</strong>, <strong>UX/UI Design</strong>, <strong>Ecommerce</strong>, <strong>Information Architecture</strong>, <strong>Design Systems</strong>, User Research, Prototyping, Usability Testing, Conversion Optimization, HTML5, CSS3, SASS, Responsive Design, <strong>AI-Assisted Design</strong>, Wireframing, User Flows, A/B Testing',
+        'letter_intro' => 'Expert in <strong>Ecommerce UX/UI Design</strong>, specializing in high-conversion shopping experiences, information architecture, and design system implementation for digital retail platforms.',
+        'letter_greeting' => 'To the Hiring Team,',
+        'letter_date' => 'February 2, 2026',
+        'letter_body' => [
+            'I am writing to express my strong interest in the <strong>UX/UI Designer</strong> position. With over two decades of experience designing high-end digital experiences, I have dedicated a significant part of my career to optimizing ecommerce platforms that combine sophisticated aesthetics with measurable conversion results.',
+            'Throughout my career, I have worked on <strong>large-scale ecommerce projects</strong> such as <strong>Casa del Libro</strong> and <strong>Vueling</strong>, where I have led information architecture, designed optimized purchase flows, and implemented coherent design systems that enhance both user experience and business KPIs. My approach combines a deep understanding of <strong>UX methodologies</strong> with advanced mastery of <strong>Figma</strong> and technical knowledge that enables me to collaborate effectively with development teams.',
+            'My hybrid profile as both designer and front-end developer allows me to act as a <strong>strategic bridge</strong> between design and technical implementation. I have solid knowledge of HTML and CSS, which facilitates communication with development and ensures that my designs are not only visually compelling but also technically viable and optimized for performance.',
+            'I am particularly excited about the opportunity to contribute to the continuous evolution of your ecommerce platform, working on the optimization of key pages (homepage, product page, checkout), refining navigation architecture, and ensuring that every design decision is oriented toward both conversion and brand consistency. My ability to work autonomously and methodically, combined with my results-driven orientation, makes me an ideal candidate for a dynamic environment of continuous improvement.',
+            'I have attached my portfolio where you can see examples of web projects that demonstrate my design process and my ability to create exceptional user experiences. I would be delighted to contribute to your company\'s growth and be part of a team that values excellence in digital design.'
+        ]
     ]
 ];
 

@@ -409,7 +409,7 @@ footer {
 
   /* Start experience on new page ONLY if it doesn't fit on first */
   /* Or if specifically requested. For now, let's keep it flowing. */
-  
+
   h3 {
     page-break-after: avoid;
   }

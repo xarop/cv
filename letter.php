@@ -16,17 +16,17 @@
 </head>
 
 <body>
-  <header>
+  <header id="page0">
     <div class="container">
       <h1 class="title">Adrià Julià Lundgren<span>Cover Letter</span></h1>
       <div class="row">
-        <div class="intro">
+        <section class="intro">
           <h2>Senior Web Engineer</h2>
           <div class="no-print" style="margin-top: 20px;">
             <a href="javascript:window.print()" class="big">Print Letter</a> |
             <a href="index.php?for=<?php echo $target_key; ?>" class="big">Back to CV</a>
           </div>
-        </div>
+        </section>
       </div>
     </div>
   </header>
@@ -34,7 +34,7 @@
   <main>
     <div class="container">
       <div class="row">
-        <div class="intro">
+        <section class="intro">
           <p style="color: var(--text-muted); margin-bottom: 30px;"><?php echo $current['letter_date']; ?></p>
 
           <p><?php echo $current['letter_greeting']; ?></p>
@@ -48,16 +48,12 @@
             <p><strong>Adrià Julià Lundgren</strong><br>
               Senior Web Engineer | xarop.com</p>
           </div>
-        </div>
+        </section>
       </div>
     </div>
   </main>
 
-  <footer>
-    <div class="container">
-      Adrià Julià Lundgren | <a href="mailto:ajl@xarop.com">ajl@xarop.com</a> | <a href="https://xarop.com">xarop.com</a>
-    </div>
-  </footer>
+  <?php require 'footer.php'; ?>
 </body>
 
 </html>

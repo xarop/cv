@@ -52,6 +52,10 @@ figure {
   margin: 0;
 }
 
+.hidden-desktop {
+  display: none;
+}
+
 .page {
   position: relative;
   overflow: hidden;
@@ -335,7 +339,7 @@ footer {
   }
 
   .row {
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 40px;
   }
 
@@ -345,6 +349,17 @@ footer {
     border-top: 1px dotted var(--border-color);
     padding-left: 0;
     padding-top: 40px;
+    /* max-height: 0;
+    overflow: hidden; */
+  }
+
+  /* aside:hover {
+    max-height: 1000px;
+    transition: all 0.5s ease-in;
+  } */
+
+  .hidden-desktop {
+    display: block;
   }
 
   .title {

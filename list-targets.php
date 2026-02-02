@@ -1,4 +1,3 @@
-<?php require_once __DIR__ . '/targets.php'; ?>
 <?php $page_title = 'CV Targets'; ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -35,7 +34,7 @@
         </article>
         <hr>
       <?php endforeach; ?>
-      <p><a href="/cv/">← Back to Generic CV</a></p>
+      <p><a href="/cv/">← Back to CV</a></p>
     </div>
   </main>
 

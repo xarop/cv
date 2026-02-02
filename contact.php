@@ -1,6 +1,4 @@
 <?php 
-require_once __DIR__ . '/targets.php';
-
 // Try to load WordPress mail functions if available
 $wp_load_path = dirname(__DIR__) . '/wp-load.php';
 $use_wp_mail = false;

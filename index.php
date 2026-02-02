@@ -1,4 +1,3 @@
-<?php require_once __DIR__ . '/targets.php'; ?>
 <?php $page_title = $current['intro_title']; ?>
 <!DOCTYPE html>
 

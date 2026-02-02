@@ -24,6 +24,7 @@
           <h2>Senior Web Engineer</h2>
           <div class="no-print" style="margin-top: 20px;">
             <a href="javascript:window.print()" class="big">Print Letter</a> |
+            <a href="https://translate.google.com/translate?sl=en&tl=es&u=https://xarop.com/cv/letter.php?for=<?php echo $target_key; ?>" class="big">Translate</a> |
             <a href="index.php?for=<?php echo $target_key; ?>" class="big">Back to CV</a>
           </div>
         </section>
@@ -46,7 +47,7 @@
           <div style="margin-top: 40px;">
             <p>Best regards,</p>
             <p><strong>Adrià Julià Lundgren</strong><br>
-              Senior Web Engineer | xarop.com</p>
+              Senior Web Engineer | <a href="https://xarop.com">xarop.com</a></p>
           </div>
         </section>
       </div>

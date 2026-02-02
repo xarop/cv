@@ -32,10 +32,13 @@
           <h2><?php echo $current['intro_title']; ?></h2>
           <p><strong><?php echo $current['intro_bio']; ?></strong></p>
           <p><?php echo $current['intro_bio_2']; ?></p>
-          <p><em>Figma, HTML5, CSS3, SASS, <strong>Modern PHP</strong>, <strong>React.js</strong>, <strong>Gutenberg
-                Blocks</strong>, <strong>Timber/Twig</strong>, API Rest, MySQL, Python, Angular, VueJS, Responsive
-              Design,
-              WordPress, Drupal, SEO, eCommerce, WooCommerce, SCRUM, GIT, NodeJS, npm</em></p>
+          <?php if (isset($current['intro_bio_3'])) : ?>
+            <p><?php echo $current['intro_bio_3']; ?></p>
+          <?php endif; ?>
+          <?php if (isset($current['intro_bio_4'])) : ?>
+            <p><?php echo $current['intro_bio_4']; ?></p>
+          <?php endif; ?>
+          <p style="opacity:.75;"><em><?php echo $current['tech_stack']; ?></em></p>
 
           <figure style="margin-top:2em;">
             <a href="//xarop.com/" target="_blank">
@@ -45,15 +48,15 @@
               </svg>
             </a>
 
-            <label>
-              Portfolio, services, and blog at <strong><a href="//www.xarop.com" target="_blank">xarop.com</a></strong>
+            <label style="opacity:.75;">
+              <em>Portfolio, services, and blog at <strong><a href="//www.xarop.com" target="_blank">xarop.com</a></strong></em>
             </label>
           </figure>
 
           <hr />
 
           <h3>Cover Letter</h3>
-          <p>I have prepared a commercial proposal / cover letter specifically for <strong><?php echo $current['company']; ?></strong>, outlining how my 20+ years of experience can contribute to your goals.</p>
+          <p><?php echo $current['letter_intro']; ?></p>
           <div class="no-print" style="margin-top: 20px;">
             <a href="letter.php?for=<?php echo $target_key; ?>" class="big"><strong>Read cover letter for <?php echo $current['company']; ?> &rarr;</strong></a>
           </div>
@@ -164,6 +167,13 @@
               Reviews.</small>
           </p>
 
+          <p><strong>WordPress Developer at Minsait</strong>
+            (<a href="https://www.fbbva.es/" target="_blank">fbbva.es</a>)<br />
+            Advanced WordPress development and implementation of the <strong>OpenWeb</strong> for the
+            BBVA Foundation portal.<br />
+            <small>WordPress, OpenWeb, PHP, JavaScript, SASS, Corporate Frameworks.</small>
+          </p>
+
           <p><strong>Senior Engineer at BeeData analytics</strong> 
             (<a href="//beedataanalytics.com/" target="_blank">beedataanalytics.com</a>)<br />
             Developing complex PDF reporting engines for energy companies. Architecting scalable corporate platforms and
@@ -194,7 +204,7 @@
             <small>Full-cycle eCommerce design and development.</small>
             <a href="memorimage.reus.cat/" target="_blank">memorimage.reus.cat</a>
             <small>Redesign of the Reus Film Festival platform.</small>
-            <a href="//beedataanalytics.com" target="_blank">beedataanalytics.com/</a>
+            <a href="//beedataanalytics.com" target="_blank">beedataanalytics.com</a>
             <small>Enterprise WordPress Corporate Website.</small>
 
             <small>Figma, WordPress, WooCommerce, ACF, Polylang, Gutenberg, React components, Git, performance
@@ -468,35 +478,28 @@
           <h4 class="title">Web Engineering & Architecture</h4>
           <table class="skill">
             <tr>
-              <td class="first">High-Level WordPress / Gutenberg </td>
+              <td class="first">High-Level WordPress  <small>Gutenberg, custom themes and plugins</small> </td>
               <td>
                 <div class="skill-bar"><span class="skill-bar-fill" style="width:100%;"></span></div>
               </td>
               <td class="last">10/10</td>
             </tr>
             <tr>
-              <td class="first">Modern PHP (Laravel / Symfony)</td>
+              <td class="first">Full-Stack Development <small>PHP / Laravel / Symfony, React, VueJS </small></td>
               <td>
                 <div class="skill-bar"><span class="skill-bar-fill" style="width:95%;"></span></div>
               </td>
               <td class="last">9.5/10</td>
             </tr>
             <tr>
-              <td class="first">React.js / Next.js / TypeScript</td>
+              <td class="first">API Integration & Design <small>REST, WP-API, Google Cloud, AI Services</small></td>
               <td>
                 <div class="skill-bar"><span class="skill-bar-fill" style="width:90%;"></span></div>
               </td>
               <td class="last">9/10</td>
             </tr>
             <tr>
-              <td class="first">API Design (REST / GraphQL)</td>
-              <td>
-                <div class="skill-bar"><span class="skill-bar-fill" style="width:85%;"></span></div>
-              </td>
-              <td class="last">8.5/10</td>
-            </tr>
-            <tr>
-              <td class="first">Cloud & DevOps (AWS / Docker)</td>
+              <td class="first">Cloud & DevOps <small>AWS, Azure, Docker, CI/CD</small></td>
               <td>
                 <div class="skill-bar"><span class="skill-bar-fill" style="width:80%;"></span></div>
               </td>
@@ -507,35 +510,22 @@
           <h4 class="title">Front-End & UX/UI Design</h4>
           <table class="skill">
             <tr>
-              <td class="first">UX/UI Design (Figma / Adobe)</td>
+              <td class="first">UX/UI Design <small>Figma, Design Systems Architecture </small></td>
               <td>
                 <div class="skill-bar"><span class="skill-bar-fill" style="width:95%;"></span></div>
               </td>
               <td class="last">10/10</td>
             </tr>
             <tr>
-              <td class="first">Modern CSS (Tailwind / SASS / BEM)</td>
+              <td class="first">Modern CSS <small>Tailwind / SASS / BEM</small></td>
               <td>
                 <div class="skill-bar"><span class="skill-bar-fill" style="width:100%;"></span></div>
               </td>
               <td class="last">10/10</td>
             </tr>
+
             <tr>
-              <td class="first">Design Systems Architecture</td>
-              <td>
-                <div class="skill-bar"><span class="skill-bar-fill" style="width:90%;"></span></div>
-              </td>
-              <td class="last">9/10</td>
-            </tr>
-            <tr>
-              <td class="first">Web Accessibility (WCAG 2.1)</td>
-              <td>
-                <div class="skill-bar"><span class="skill-bar-fill" style="width:85%;"></span></div>
-              </td>
-              <td class="last">8.5/10</td>
-            </tr>
-            <tr>
-              <td class="first">SEO & Core Web Vitals</td>
+              <td class="first">Optimization & Standards <small>SEO, Core Web Vitals, Caching</small></td>
               <td>
                 <div class="skill-bar"><span class="skill-bar-fill" style="width:95%;"></span></div>
               </td>
@@ -544,12 +534,13 @@
           </table>
 
           <ul class="simple-list">
-            <li><strong>Tools:</strong> VS Code, Git Flow, Docker, Webpack/Vite, PHPUnit, Redis, Memcached, MySQL
-              Optimization.</li>
+            <li><strong>AI & Workflow:</strong> Expert in AI-Assisted Development using <strong>Cursor</strong>, <strong>VS Code</strong> and <strong>Copilot</strong>. Advanced Prompt Engineering for modular architecture, automated documentation, and sustainable code refactoring.</li>
+            <li><strong>Agile & Collaboration:</strong> <strong>SCRUM</strong>, Agile Methodologies, <strong>Jira</strong>, Atlassian Suite, Slack, Microsoft Teams, Google Workspace. High proficiency in <strong>Git Flow</strong> and collaborative environments.</li>
+            <li><strong>Architecture & Tools:</strong> VS Code, Docker, Webpack/Vite, PHPUnit, Redis, Memcached, MySQL Optimization.</li>
             <li><strong>Web Ecosystem:</strong> Timber/Twig, Advanced Custom Fields (ACF), Bedrock/Sage, Laravel Eloquent,
               Blade.</li>
-            <li><strong>Creative Suite:</strong> Figma, Sketch, Photoshop, Illustrator, After Effects (Lottie
-              Animations).</li>
+            <!-- <li><strong>Creative Suite:</strong> Figma, Sketch, Photoshop, Illustrator, After Effects (Lottie
+              Animations).</li> -->
             <li><strong>Leadership:</strong> Technical Project Management, Mentorship, Code Review Standards, Strategic
               Communication.</li>
           </ul>

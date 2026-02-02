@@ -316,7 +316,7 @@
         </section>
 
         <section id="skills">
-          <h3>TECHNICAL EXPERTISE</h3>
+          <h3>TECHNICAL SKILLS</h3>
 
           <h4 class="title">Web Engineering & Architecture</h4>
           <table class="skill">

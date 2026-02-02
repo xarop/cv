@@ -7,8 +7,8 @@
 $targets = [
     // Generic CV
     'generic' => [
-        'company' => 'Front-End Engineer',
-        'intro_title' => 'Senior Front-End Engineer',
+        'company' => 'FrontEnd Engineer',
+        'intro_title' => 'Senior FrontEnd Engineer',
         'intro_bio' => 'Senior Engineer with over 20 years of experience building high-performance digital ecosystems. Expert in modern Front-End architecture, React, and high-fidelity UI implementation.',
         'intro_bio_2' => 'Focused on building scalable, responsive, and interactive interfaces. I specialize in bridging technical robustness with seamless user experiences across various frameworks.',
         'intro_bio_3' => 'Dedicated <strong>UI/UX Designer</strong> and <strong>Figma</strong> expert. I act as a strategic <strong>bridge</strong> between creative vision and engineering, architecting scalable <strong>Design Systems</strong> for sophisticated digital products.',
@@ -23,6 +23,26 @@ $targets = [
             'What sets me apart is my ability to act as a "Technical Architect of Design." At <strong>xarop.com</strong>, I have been a key part of the team developing sophisticated platforms such as <strong>bandalux.com</strong> and <strong>ccib.es</strong>. These projects required not only deep technical knowledge of SASS and JavaScript but also a strategic approach to <strong>Design Systems</strong> in Figma, ensuring that pixel-perfect designs translate into maintainable and performant code.',
             'I am a strong advocate for modern development workflows. I am an expert in <strong>AI-assisted development</strong>, using tools like <strong>Cursor</strong> and <strong>Copilot</strong> to accelerate refactoring and build sustainable systems. I am highly proficient in remote-first environments, utilizing <strong>Jira</strong>, <strong>Microsoft Teams</strong>, and Slack for seamless async communication. I thrive on <strong>remote work and flexibility</strong>, as it allows me to balance high-level coordination with the "deep work" required to maintain intense focus on high-quality coding with minimal interruptions.',
             'I am eager to bring my architectural oversight and passion for high-end front-end engineering to your most ambitious projects, while contributing to a culture of efficiency and technical excellence.'
+        ]
+    ],
+
+     'frontend' => [
+        'company' => 'FrontEnd Developer',
+        'intro_title' => 'Senior FrontEnd Developer',
+        'intro_bio' => 'Senior FrontEnd Developer with 20+ years of experience building high-performance web applications. Expert in modern JavaScript frameworks, responsive design, and component architecture.',
+        'intro_bio_2' => 'Specialized in <strong>React, VueJS, and Angular</strong> for building scalable, maintainable SPAs. Deep expertise in state management, component lifecycle, and performance optimization for complex user interfaces.',
+        'intro_bio_3' => 'Master of <strong>Modern CSS/SASS</strong> and <strong>Responsive Design Systems</strong>. Expert in Tailwind, BEM methodology, and creating pixel-perfect implementations from Figma designs while maintaining code quality and accessibility standards.',
+        'intro_bio_4' => 'Expert in <strong>AI-Assisted Development</strong> using <strong>Cursor</strong> and <strong>GitHub Copilot</strong>. Proficient in advanced prompting techniques for rapid prototyping, refactoring legacy code, and maintaining sustainable architectures in fast-paced environments.',
+        'tech_stack' => '<strong>React</strong>, <strong>VueJS</strong>, <strong>Angular</strong>, <strong>TypeScript</strong>, <strong>JavaScript (ES6+)</strong>, <strong>HTML5</strong>, <strong>CSS3/SASS</strong>, <strong>Tailwind</strong>, Webpack, Vite, <strong>Git</strong>, REST APIs, <strong>Node.js</strong>, npm/yarn, Jest, <strong>Figma</strong>, Responsive Design, Performance Optimization, <strong>AI Tools</strong>, SCRUM',
+        'letter_intro' => 'Expert <strong>FrontEnd Developer</strong> with 20+ years architecting modern web applications using React, VueJS, Angular, and cutting-edge CSS frameworks for high-traffic platforms.',
+        'letter_greeting' => 'To the Engineering Team,',
+        'letter_date' => date('F j, Y'),
+        'letter_body' => [
+            'I am writing to express my strong interest in the <strong>FrontEnd Developer</strong> position. With over two decades of experience building sophisticated web applications, I have mastered the evolution from jQuery to modern framework ecosystems, always focusing on performance, maintainability, and exceptional user experiences.',
+            'My career highlights include engineering the front-end for <strong>vueling.com</strong> at Newshore, where I worked with <strong>Angular</strong> and <strong>VueJS</strong> in a high-traffic, distributed Agile environment. At <strong>Editorial Planeta</strong>, I implemented complex interfaces for <strong>Casa del Libro</strong> and <strong>EAE Business School</strong> using VueJS and modern build tools. More recently, I have been architecting enterprise platforms like <strong>bandalux.com</strong> and <strong>ccib.es</strong>, integrating modern JavaScript with sophisticated SASS architectures.',
+            'I excel at <strong>component-driven development</strong>, creating reusable, scalable architectures that work seamlessly across teams. My deep understanding of <strong>TypeScript</strong>, state management patterns (Redux, Vuex, Pinia), and modern build tools (Webpack, Vite) allows me to deliver robust solutions that scale. I am particularly skilled at translating high-fidelity Figma designs into pixel-perfect, responsive implementations while maintaining accessibility and performance standards.',
+            'I am a strong advocate for <strong>modern development workflows</strong>. I leverage <strong>AI-assisted tools</strong> like Cursor and GitHub Copilot to accelerate development, refactor legacy code, and ensure architectural consistency. I thrive in remote-first environments using Jira, Slack, and Microsoft Teams for seamless collaboration, and I excel in balancing async communication with focused deep work.',
+            'I am eager to bring my technical expertise, architectural thinking, and passion for clean code to your engineering team, contributing to projects that demand both innovation and reliability.'
         ]
     ],
 
@@ -46,8 +66,8 @@ $targets = [
     ],
 
     'uiux' => [
-        'company' => 'Ecommerce UX/UI Designer',
-        'intro_title' => 'UX/UI Designer - Ecommerce Specialist',
+        'company' => 'UX/UI Designer',
+        'intro_title' => 'UX/UI Designer',
         'intro_bio' => 'Senior UX/UI Designer with 20+ years of experience creating high-conversion digital experiences. Expert in ecommerce design, user experience architecture, and design systems.',
         'intro_bio_2' => 'Specialized in <strong>Ecommerce Optimization</strong>, creating intuitive shopping experiences that balance aesthetics, usability, and conversion. Deep expertise in product pages, checkout flows, and navigation architecture.',
         'intro_bio_3' => 'Master of <strong>Figma</strong> and modern <strong>UX methodologies</strong>. I create comprehensive design systems that ensure visual consistency and scalability across complex digital platforms.',
@@ -64,6 +84,8 @@ $targets = [
             'I have attached my portfolio where you can see examples of web projects that demonstrate my design process and my ability to create exceptional user experiences. I would be delighted to contribute to your company\'s growth and be part of a team that values excellence in digital design.'
         ]
     ]
+
+   
 ];
 
 // Determine the current target

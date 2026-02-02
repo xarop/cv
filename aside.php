@@ -4,9 +4,11 @@
 </label>
 <label for="nav-toggle" class="nav-overlay no-print"></label>
  <aside class="sidebar">
-          <figure>
-            <img title="Adrià Julià Lundgren" src="//xarop.com/cv/ajl.jpg" alt="Adrià Julià Lundgren" />
-          </figure>
+          <a href="/cv/" target="_blank" class="big">
+            <figure>
+              <img title="Adrià Julià Lundgren" src="//xarop.com/cv/ajl.jpg" alt="Adrià Julià Lundgren" />
+            </figure>
+          </a>
           <ul>
             <li>
               <a href="https://xarop.com" target="_blank" class="big">
@@ -52,11 +54,11 @@
 
           <ul class="no-print">
             <li style="margin-top:10px;"><strong>SECTIONS</strong></li>
-            <li class="hidden-desktop"><a href="<?php echo $target_key; ?>#intro">INTRO</a></li>
-            <li><a href="letter/<?php echo $target_key; ?>">COVER LETTER</a></li>
-            <li><a href="<?php echo $target_key; ?>#experience">EXPERIENCE</a></li>
-            <li><a href="<?php echo $target_key; ?>#formation">FORMATION</a></li>
-            <li><a href="<?php echo $target_key; ?>#skills">TECHNICAL SKILLS</a></li>
+            <li><a href="/cv/<?php echo $target_key; ?>#intro">INTRO</a></li>
+            <li><a href="/cv/letter/<?php echo $target_key; ?>">COVER LETTER</a></li>
+            <li><a href="/cv/<?php echo $target_key; ?>#experience">EXPERIENCE</a></li>
+            <li><a href="/cv/<?php echo $target_key; ?>#formation">FORMATION</a></li>
+            <li><a href="/cv/<?php echo $target_key; ?>#skills">TECHNICAL SKILLS</a></li>
 
             <li><strong>ACTIONS</strong></li>
             <li><a href="javascript:window.print()">Print to PDF / Paper</a></li>
@@ -80,7 +82,7 @@
             </li>
 
             <li>
-              <a href="letter/<?php echo $target_key; ?>" title="Cover Letter"><span>Cover Letter</span>
+              <a href="/cv/letter/<?php echo $target_key; ?>" title="Cover Letter"><span>Cover Letter</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
                   <path fill="currentColor"
                     d="M28 8h-4V6c0-1.1-.9-2-2-2H10c-1.1 0-2 .9-2 2v2H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h24c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zM10 6h12v2H10V6zm18 18H4V10h24v14z" />

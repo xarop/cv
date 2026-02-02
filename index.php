@@ -73,7 +73,7 @@
             Technical strategy and development of robust corporate ecosystems.<br />
             <strong><a href="https://ccib.es" target="_blank">ccib.es</a>:</strong> Complex multilingual architecture for the Barcelona International Convention Centre.<br />
             <strong><a href="https://bandalux.com" target="_blank">bandalux.com</a>:</strong> High-end UI/UX for a global solar protection leader, leveraging Timber/Twig and modern PHP.<br />
-            <small>WordPress, <strong>Timber/Twig</strong>, ACF, Sophisticated PHP, SASS, Performance & Caching, Code Reviews.</small>
+            <small>WordPress, Timber/Twig, ACF, Sophisticated PHP, SASS, Performance & Caching, Code Reviews.</small>
           </p>
 
           <p><strong>WordPress Developer at Minsait</strong> (<a href="https://www.fbbva.es/" target="_blank">fbbva.es</a>)<br />

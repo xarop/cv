@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adrià Julià Lundgren | Cover Letter | <?php echo $current['company']; ?></title>
+  <title><?php echo $profile['name']; ?> | Cover Letter | <?php echo $current['company']; ?></title>
 
   <link rel="icon" href="//xarop.com/favicon.ico">
 
@@ -18,7 +18,12 @@
 <body>
   <main id="page0">
     <div class="container">
-      <h1 class="title">Adrià Julià Lundgren<span>Cover Letter</span></h1>
+      
+       <h1 class="title">
+        <a href="/cv/"><?php echo $profile['name']; ?></a>
+        <span>Cover Letter</span>
+      </h1>
+      
       <div class="row">
        
         <main>
@@ -43,7 +48,7 @@
           </div>
 
           <hr>
-          <p class="no-print"><a href="./<?php echo $target_key; ?>">→ View Full CV</a></p>
+          <p class="no-print"><a href="../<?php echo $target_key; ?>">→ View Full CV</a></p>
         </section>
       </div>
    

@@ -1,10 +1,10 @@
 <footer id="page-footer">
   <div class="container">
-    Adrià Julià Lundgren |
-    <a href="mailto:ajl@xarop.com">ajl@xarop.com</a> |
-    <a href="tel:+34 620582626">+34 620 58 26 26</a> |
-    <a href="//xarop.com">xarop.com</a>
-    <span class="no-print"> | <a href="#page0">top</a></span>
+    <?php echo $profile['name']; ?> |
+    <a href="mailto:<?php echo $profile['email']; ?>"><?php echo $profile['email']; ?></a> |
+    <a href="tel:<?php echo $profile['phone_raw']; ?>"><?php echo $profile['phone']; ?></a> |
+    <a href="<?php echo $profile['website_url']; ?>"><?php echo $profile['website']; ?></a>
+    <span class="no-print"> | <a href="#">top</a></span>
   </div>
 </footer>
 

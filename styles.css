@@ -90,6 +90,7 @@ h1 {
   font-size: 36px;
   font-weight: 400;
   margin: 0 0 20px 0;
+  color: var(--primary-color);
 }
 
 h2 {

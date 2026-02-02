@@ -21,7 +21,7 @@
       <h1 class="title">Adrià Julià Lundgren<span>Cover Letter</span></h1>
       <div class="row">
         <section class="intro">
-          <h2>Senior Web Engineer</h2>
+          <h2><?php echo $current['intro_title']; ?></h2>
           <div class="no-print" style="margin-top: 20px;">
             <a href="javascript:window.print()" class="big">Print Letter</a> |
             <a href="https://translate.google.com/translate?sl=en&tl=es&u=https://xarop.com/cv/letter.php?for=<?php echo $target_key; ?>" class="big">Translate</a> |
@@ -47,7 +47,7 @@
           <div style="margin-top: 40px;">
             <p>Best regards,</p>
             <p><strong>Adrià Julià Lundgren</strong><br>
-              Senior Web Engineer | <a href="https://xarop.com">xarop.com</a></p>
+              <?php echo $current['intro_title']; ?> | <a href="https://xarop.com">xarop.com</a></p>
           </div>
         </section>
       </div>

@@ -69,7 +69,19 @@
             <img title="Adrià Julià Lundgren" src="//xarop.com/cv/ajl.jpg" alt="Adrià Julià Lundgren" />
           </figure>
           <ul>
-            <li><a href="xarop.com" target="_blank" class="big"><strong>Barcelona</strong></a></li>
+            <li>
+              <a href="xarop.com" target="_blank" class="big">
+                <strong>
+                xarop.com 
+                <span style="margin: 0 8px; vertical-align: middle; display: inline-block; line-height: 0;">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="#EE2455">
+                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                  </svg>
+                </span>
+                Barcelona
+                </strong>
+              </a>
+            </li>
             <li><a href="tel:+34 620582626" target="_blank" class="big">+34 <strong>620 58 26
                   26</strong></a><a href="https://wa.me/34620582626" target="_blank" title="WhatsApp" class="no-print"
                 style="vertical-align: middle; margin-left: 8px; opacity: 0.6;"><svg
@@ -105,10 +117,10 @@
             <li><a href="https://translate.google.com/translate?sl=en&tl=es&u=https://xarop.com/cv/">Translate
                 to Spanish</a></li>
             <li style="margin-top:10px;"><strong>SECTIONS</strong></li>
+            <li><a href="letter.php?for=<?php echo $target_key; ?>">COVER LETTER</a></li>
             <li><a href="#experience">EXPERIENCE</a></li>
             <li><a href="#formation">FORMATION</a></li>
             <li><a href="#skills">TECHNICAL SKILLS</a></li>
-            <li><a href="letter.php?for=<?php echo $target_key; ?>">COVER LETTER</a></li>
           </ul>
 
           <ul id="menu-print" class="social-links-menu no-print">
@@ -485,7 +497,7 @@
               <td class="last">10/10</td>
             </tr>
             <tr>
-              <td class="first">Full-Stack Development <small>PHP / Laravel / Symfony, React, VueJS </small></td>
+              <td class="first">Full-Stack Development <small>PHP, JavaScript, React, VueJS </small></td>
               <td>
                 <div class="skill-bar"><span class="skill-bar-fill" style="width:95%;"></span></div>
               </td>

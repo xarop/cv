@@ -94,19 +94,19 @@
           <ul class="no-print">
             <li><strong>ACTIONS</strong></li>
             <li><a href="javascript:window.print()">Print to PDF / Paper</a></li>
-            <li><a href="https://translate.google.com/translate?sl=en&tl=es&u=https://xarop.com/cv/index.html">Translate
+            <li><a href="https://translate.google.com/translate?sl=en&tl=es&u=https://xarop.com/cv/">Translate
                 to Spanish</a></li>
             <li style="margin-top:10px;"><strong>SECTIONS</strong></li>
             <li><a href="#experience">EXPERIENCE</a></li>
             <li><a href="#formation">FORMATION</a></li>
             <li><a href="#skills">TECHNICAL SKILLS</a></li>
-            <li><a href="letter.html">COVER LETTER</a></li>
+            <li><a href="letter.php?for=<?php echo $target_key; ?>">COVER LETTER</a></li>
           </ul>
 
           <ul id="menu-print" class="social-links-menu no-print">
 
             <li>
-              <a href="index.html" title="Switch to English"><span>View in English</span>
+              <a href="https://translate.google.com/translate?sl=en&tl=es&u=https://xarop.com/cv/" title="Translate"><span>Translate</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
                   <path fill="currentColor"
                     d="M27.85 29H30l-6-15h-2.35l-6 15h2.15l1.6-4h6.85zm-7.65-6l2.62-6.56L25.45 23zM18 7V5h-7V2H9v3H2v2h10.74a14.71 14.71 0 0 1-3.19 6.18A13.5 13.5 0 0 1 7.26 9h-2.1a16.47 16.47 0 0 0 3 5.58A16.84 16.84 0 0 1 3 18l.75 1.86A18.47 18.47 0 0 0 9.53 16a16.92 16.92 0 0 0 5.76 3.84L16 18a14.48 14.48 0 0 1-5.12-3.37A17.64 17.64 0 0 0 14.8 7z" />
@@ -186,11 +186,11 @@
             <strong>Architecting and Developing High-Scale Sites (WordPress)</strong> <br />
 
             <a href="//junglemows.com" target="_blank">JungleMows.com</a>
-            <small>Full-cycle eCommerce design and development.</small><br />
+            <small>Full-cycle eCommerce design and development.</small>
             <a href="memorimage.reus.cat/" target="_blank">memorimage.reus.cat</a>
-            <small>Redesign of the Reus Film Festival platform.</small><br />
+            <small>Redesign of the Reus Film Festival platform.</small>
             <a href="//beedataanalytics.com" target="_blank">beedataanalytics.com/</a>
-            <small>Enterprise WordPress Corporate Website.</small><br />
+            <small>Enterprise WordPress Corporate Website.</small>
 
             <small>Figma, WordPress, WooCommerce, ACF, Polylang, Gutenberg, React components, Git, performance
               optimization.</small>
@@ -217,11 +217,11 @@
           <p class="no-print"><strong>Engineering diverse high-conversion LandingPages for advertising
               campaigns:</strong><br />
             <a href="//oakleycantstopchallenge.es" target="_blank">oakleycantstopchallenge.es</a>
-            <small>LandingPage developed using the CodeIgniter framework.</small><br />
+            <small>LandingPage developed using the CodeIgniter framework.</small>
             <a href="//www.gallopastalover.es" target="_blank">gallopastalover.es</a>
-            <small>OnePage with Jquery/CSS3 animations and background videos.</small><br />
+            <small>OnePage with Jquery/CSS3 animations and background videos.</small>
             <a href="//www.ayondosocialtrading.com" target="_blank">ayondosocialtrading.com</a>
-            <small>Microsite with a private user registration area.</small><br />
+            <small>Microsite with a private user registration area.</small>
             <small>Responsive design, WordPress, CodeIgniter, Bootstrap 4, HTML5, CSS3, jQuery, PHP...</small>
           </p>
 
@@ -292,16 +292,18 @@
             <small>WordPress, HTML, CSS, jQuery, PHP...</small>
           </p>
 
-        </article>
-
-        </article>
-
-        <article>
           <h4 class="title">Telefonica I+D<span>2008 – 2009</span></h4>
           <p> <strong>Design, markup, and programming of social network mockups and prototypes.</strong><br />
             Wireframing and UI/UX development within an agile environment (SCRUM).<br />
             <small>Fireworks, SCRUM, HTML5, CSS3, jQuery, PHP, Drupal.</small>
           </p>
+
+        </article>
+
+        </article>
+
+        <article>
+          
 
           <h4 class="title">Vueling Airlines<span>2006 – 2008</span></h4>
           <p> <strong>Web Engineering</strong>, design, implementation, and maintenance of the <a

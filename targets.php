@@ -23,7 +23,7 @@ $targets = [
     
     // Example of another target:
     'generic' => [
-        'company' => 'Your Team',
+        'company' => 'xarop.com',
         'intro_title' => 'Senior Web Engineer',
         'intro_bio' => 'Senior engineer specialized in architecting enterprise-level WordPress ecosystems. Expert in modern PHP, sophisticated Gutenberg architecture, and high-performance system design.',
         'intro_bio_2' => 'Bridge between elegant design and robust engineering, with a focus on building maintainable, scalable solutions.',
@@ -39,9 +39,9 @@ $targets = [
 ];
 
 // Determine the current target
-$target_key = $_GET['for'] ?? 'default';
+$target_key = $_GET['for'] ?? 'generic';
 if (!isset($targets[$target_key])) {
-    $target_key = 'default';
+    $target_key = 'generic';
 }
 
 $current = $targets[$target_key];

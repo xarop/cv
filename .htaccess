@@ -1,13 +1,13 @@
 RewriteEngine On
 
 # Rewrite /cv/contact to contact.php
-RewriteRule ^cv/contact/?$ /cv/contact.php [L]
+RewriteRule ^contact/?$ contact.php [L]
 
 # Rewrite /cv/targets to list-targets.php
-RewriteRule ^cv/targets/?$ /cv/list-targets.php [L]
+RewriteRule ^targets/?$ list-targets.php [L]
 
 # Rewrite /cv/letter/target to letter.php
-RewriteRule ^cv/letter/([a-z0-9_-]+)/?$ /cv/letter.php?for=$1 [L]
+RewriteRule ^letter/([a-z0-9_-]+)/?$ letter.php?for=$1 [L]
 
 # Rewrite /cv/target to index.php
-RewriteRule ^cv/([a-z0-9_-]+)/?$ /cv/index.php?for=$1 [L]
+RewriteRule ^([a-z0-9_-]+)/?$ index.php?for=$1 [L]

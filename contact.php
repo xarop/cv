@@ -1,5 +1,5 @@
 <?php 
-require_once 'targets.php';
+require_once __DIR__ . '/targets.php';
 
 // Try to load WordPress mail functions if available
 $wp_load_path = dirname(__DIR__) . '/wp-load.php';
@@ -47,21 +47,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 ?>
+<?php $page_title = 'Contact'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><?php echo $profile['name']; ?> | Contact</title>
-
-  <link rel="icon" href="//xarop.com/favicon.ico">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <link href="/cv/styles.css" rel="stylesheet">
-</head>
+<?php require __DIR__ . '/head.php'; ?>
 
 <body>
   <main id="page0">
@@ -129,12 +119,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
    
   </main>
 
-        <?php require 'aside.php'; ?>
+        <?php require __DIR__ . '/aside.php'; ?>
       </div>
     </div>
   </main>
 
-  <?php require 'footer.php'; ?>
+  <?php require __DIR__ . '/footer.php'; ?>
 </body>
 
 </html>

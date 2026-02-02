@@ -4,6 +4,21 @@
  * Add a new target by adding an entry to the $targets array.
  */
 
+// Profile information
+$profile = [
+    'name' => 'Adrià Julià Lundgren',
+    'email' => 'ajl@xarop.com',
+    'website' => 'xarop.com',
+    'website_url' => 'https://xarop.com',
+    'photo' => '/cv/ajl.jpg',
+    'location' => 'Barcelona',
+    'phone' => '+34 620 58 26 26',
+    'phone_raw' => '+34620582626',
+    'whatsapp' => '34620582626',
+    'linkedin' => 'https://www.linkedin.com/in/xarop/',
+    'github' => 'https://github.com/xarop'
+];
+
 $targets = [
     // Generic CV
     'generic' => [

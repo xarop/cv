@@ -1,20 +1,10 @@
-<?php require_once 'targets.php'; ?>
+<?php require_once __DIR__ . '/targets.php'; ?>
+<?php $page_title = $current['intro_title']; ?>
 <!DOCTYPE html>
 
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><?php echo $profile['name']; ?> | <?php echo $current['intro_title']; ?> | <?php echo $current['company']; ?></title>
-
-  <link rel="icon" href="//xarop.com/favicon.ico">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <link href="styles.css" rel="stylesheet">
-</head>
+<?php require __DIR__ . '/head.php'; ?>
 
 <body>
   <header id="page0">
@@ -57,7 +47,7 @@
           </div>
         </section>
 
-        <?php require 'aside.php'; ?>
+        <?php require __DIR__ . '/aside.php'; ?>
       </div>
     </div>
   </header>
@@ -389,7 +379,7 @@
     </div>
   </main>
 
-  <?php require 'footer.php'; ?>
+  <?php require __DIR__ . '/footer.php'; ?>
 </body>
 
 </html>

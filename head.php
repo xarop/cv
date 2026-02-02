@@ -1,7 +1,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><?php echo $profile['name']; ?><?php if (isset($page_title)) echo ' | ' . $page_title; ?><?php if (isset($current)) echo ' | ' . $current['company']; ?></title>
+  <title><?php echo $profile['name']; ?><?php if (isset($page_title)) { echo ' | ' . $page_title;
+         } ?><?php if (isset($current)) { echo ' | ' . $current['company'];
+} ?></title>
 
   <link rel="icon" href="//xarop.com/favicon.ico">
 

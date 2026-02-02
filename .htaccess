@@ -1,0 +1,22 @@
+RewriteEngine On
+RewriteBase /cv/
+
+# Redirect old query parameter format to friendly URLs
+RewriteCond %{QUERY_STRING} ^for=([a-z0-9_-]+)$
+RewriteRule ^$ /cv/%1? [R=301,L]
+
+# Redirect letter.php?for=target to /cv/letter/target
+RewriteCond %{QUERY_STRING} ^for=([a-z0-9_-]+)$
+RewriteRule ^letter\.php$ /cv/letter/%1? [R=301,L]
+
+# Rewrite /cv/letter/target to letter.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^letter/([a-z0-9_-]+)/?$ letter.php [L,QSA]
+
+# Rewrite friendly URLs to index.php
+# Skip if it's an actual file or directory
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+# Rewrite /cv/target to /cv/index.php
+RewriteRule ^([a-z0-9_-]+)/?$ index.php [L,QSA]

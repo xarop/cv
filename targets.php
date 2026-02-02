@@ -5,26 +5,7 @@
  */
 
 $targets = [
-    '10up' => [
-        'company' => 'Fueled / 10up',
-        'intro_title' => 'Senior Web Engineer',
-        'intro_bio' => 'Senior engineer specialized in architecting enterprise-level WordPress ecosystems. Expert in modern PHP, sophisticated Gutenberg architecture, and high-performance system design.',
-        'intro_bio_2' => 'Bridge between elegant design and robust engineering, with a focus on building maintainable, scalable solutions for global brands like BBVA, Vueling, and Ed. Planeta.',
-        'intro_bio_4' => 'Power user of <strong>AI-assisted programming</strong> workflows (Cursor, VS Code) to build sustainable, well-documented, and scalable enterprise systems.',
-        'tech_stack' => '<strong>Modern PHP</strong>, HTML5, CSS3, SASS, React, <strong>Gutenberg Blocks</strong>, <strong>Timber/Twig</strong>, API Rest, MySQL, Python, Angular, VueJS, Responsive Design, <strong>WordPress</strong>, <strong>Figma</strong>, <strong>AI</strong>, Drupal, SEO, eCommerce, WooCommerce, SCRUM, GIT, NodeJS, npm',
-        'letter_intro' => 'Architecting enterprise-level WordPress ecosystems for over 20 years, focusing on high-performance system design and sophisticated Gutenberg architecture.',
-        'letter_greeting' => 'To the Fueled / 10up Hiring Team,',
-        'letter_date' => 'February 2, 2026',
-        'letter_body' => [
-            'I am writing to express my strong interest in the <strong>Contract Senior Web Engineer</strong> position. With over two decades of experience at the intersection of high-end design and scalable engineering, I have dedicated my career to pushing the boundaries of what WordPress can achieve for enterprise-level clients.',
-            'Throughout my recent work as a **Senior Engineer** at Byteberry Studio, I have been a **key part of the team** architecting foundational systems for large-scale digital experiences, such as the <strong>Barcelona International Convention Centre (CCIB)</strong> and <strong>Bandalux</strong>. My approach combines deep WordPress expertise with modern PHP practices and sophisticated Gutenberg architecture using React.js. I thrive on transforming complex business requirements into performant, maintainable, and elegant technical solutions.',
-            'My background as both a designer (Degree from Llotja) and a Senior Engineer allows me to bridge the gap between creative vision and technical execution. I am a master of the back-end lifecycle, a champion of code quality through meticulous peer reviews, and an expert in solving performance and caching challenges for platforms that handle high-volume traffic.',
-            'Working in a distributed, remote-first environment like yours is where I perform best. I am a proactive collaborator and a strategic communicator, comfortable leading technical discussions and mentoring teams to elevate our collective output.',
-            'I am eager to contribute my architectural expertise to your team and help shape the next generation of digital products for world-class brands. Thank you for your time and consideration.'
-        ]
-    ],
-    
-    // Example of another target:
+    // Generic CV
     'generic' => [
         'company' => 'Front-End Engineer',
         'intro_title' => 'Senior Front-End Engineer',
@@ -86,7 +67,16 @@ $targets = [
 ];
 
 // Determine the current target
-$target_key = $_GET['for'] ?? 'generic';
+// Support both ?for=target, /cv/target and /cv/letter/target formats
+$request_uri = $_SERVER['REQUEST_URI'] ?? '';
+if (preg_match('#/cv/letter/([a-z0-9_-]+)#i', $request_uri, $matches)) {
+    $target_key = $matches[1];
+} elseif (preg_match('#/cv/([a-z0-9_-]+)#i', $request_uri, $matches)) {
+    $target_key = $matches[1];
+} else {
+    $target_key = $_GET['for'] ?? 'generic';
+}
+
 if (!isset($targets[$target_key])) {
     $target_key = 'generic';
 }

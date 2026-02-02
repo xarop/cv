@@ -52,7 +52,7 @@
           <h3>Cover Letter</h3>
           <p><?php echo $current['letter_intro']; ?></p>
           <div class="no-print" style="margin-top: 20px;">
-            <a href="letter.php?for=<?php echo $target_key; ?>" class="big"><strong>Read cover letter for <?php echo $current['company']; ?> &rarr;</strong></a>
+            <a href="letter/<?php echo $target_key; ?>" class="big"><strong>Read cover letter for <?php echo $current['company']; ?> &rarr;</strong></a>
           </div>
         </section>
 
@@ -381,7 +381,7 @@
             <li><strong>Agile & Collaboration:</strong> <strong>SCRUM</strong>, Agile Methodologies, <strong>Jira</strong>, Atlassian Suite, Slack, Microsoft Teams, Google Workspace. High proficiency in <strong>Git Flow</strong> and collaborative environments.</li>
             <li><strong>Architecture & Tools:</strong> VS Code, Docker, Webpack/Vite, PHPUnit, Redis, Memcached, MySQL Optimization.</li>
             <li><strong>Web Ecosystem:</strong> Timber/Twig, Advanced Custom Fields (ACF), Bedrock/Sage, Laravel Eloquent, Blade.</li>
-            <li><strong>Leadership:</strong> Technical Project Management, Mentorship, Code Review Standards, Strategic Communication.</li>
+            <!-- <li><strong>Leadership:</strong> Technical Project Management, Mentorship, Code Review Standards, Strategic Communication.</li> -->
           </ul>
         </section>
       </div>

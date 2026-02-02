@@ -11,13 +11,12 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-  <link href="styles.css" rel="stylesheet">
+  <link href="/cv/styles.css" rel="stylesheet">
 </head>
 
 <body>
-  <header id="page0">
+  <main id="page0">
     <div class="container">
       <h1 class="title">Adrià Julià Lundgren<span>Cover Letter</span></h1>
       <div class="row">
@@ -42,6 +41,9 @@
               <?php echo $current['intro_title']; ?> | <a href="https://xarop.com">xarop.com</a>
             </p>
           </div>
+
+          <hr>
+          <p class="no-print"><a href="./<?php echo $target_key; ?>">→ View Full CV</a></p>
         </section>
       </div>
    
@@ -50,7 +52,7 @@
         <?php require 'aside.php'; ?>
       </div>
     </div>
-  </header>
+  </main>
 
   
 

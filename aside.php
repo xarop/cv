@@ -52,16 +52,16 @@
 
           <ul class="no-print">
             <li style="margin-top:10px;"><strong>SECTIONS</strong></li>
-            <li class="hidden-desktop"><a href="index.php?for=<?php echo $target_key; ?>#intro">INTRO</a></li>
-            <li><a href="letter.php?for=<?php echo $target_key; ?>">COVER LETTER</a></li>
-            <li><a href="index.php?for=<?php echo $target_key; ?>#experience">EXPERIENCE</a></li>
-            <li><a href="index.php?for=<?php echo $target_key; ?>#formation">FORMATION</a></li>
-            <li><a href="index.php?for=<?php echo $target_key; ?>#skills">TECHNICAL SKILLS</a></li>
+            <li class="hidden-desktop"><a href="<?php echo $target_key; ?>#intro">INTRO</a></li>
+            <li><a href="letter/<?php echo $target_key; ?>">COVER LETTER</a></li>
+            <li><a href="<?php echo $target_key; ?>#experience">EXPERIENCE</a></li>
+            <li><a href="<?php echo $target_key; ?>#formation">FORMATION</a></li>
+            <li><a href="<?php echo $target_key; ?>#skills">TECHNICAL SKILLS</a></li>
 
             <li><strong>ACTIONS</strong></li>
             <li><a href="javascript:window.print()">Print to PDF / Paper</a></li>
             <li>
-              <a href="https://translate.google.com/translate?sl=en&tl=es&u=https://xarop.com/cv/<?php echo basename($_SERVER['PHP_SELF']); ?>?for=<?php echo $target_key; ?>">
+              <a href="https://translate.google.com/translate?sl=en&tl=es&u=https://xarop.com/cv/<?php echo $target_key; ?>">
                 Translate to Spanish
               </a>
             </li>
@@ -71,7 +71,7 @@
           <ul id="menu-print" class="social-links-menu no-print">
 
             <li>
-              <a href="https://translate.google.com/translate?sl=en&tl=es&u=https://xarop.com/cv/<?php echo basename($_SERVER['PHP_SELF']); ?>?for=<?php echo $target_key; ?>" title="Translate"><span>Translate</span>
+              <a href="https://translate.google.com/translate?sl=en&tl=es&u=https://xarop.com/cv/<?php echo $target_key; ?>" title="Translate"><span>Translate</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
                   <path fill="currentColor"
                     d="M27.85 29H30l-6-15h-2.35l-6 15h2.15l1.6-4h6.85zm-7.65-6l2.62-6.56L25.45 23zM18 7V5h-7V2H9v3H2v2h10.74a14.71 14.71 0 0 1-3.19 6.18A13.5 13.5 0 0 1 7.26 9h-2.1a16.47 16.47 0 0 0 3 5.58A16.84 16.84 0 0 1 3 18l.75 1.86A18.47 18.47 0 0 0 9.53 16a16.92 16.92 0 0 0 5.76 3.84L16 18a14.48 14.48 0 0 1-5.12-3.37A17.64 17.64 0 0 0 14.8 7z" />
@@ -80,7 +80,7 @@
             </li>
 
             <li>
-              <a href="letter.php?for=<?php echo $target_key; ?>" title="Cover Letter"><span>Cover Letter</span>
+              <a href="letter/<?php echo $target_key; ?>" title="Cover Letter"><span>Cover Letter</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
                   <path fill="currentColor"
                     d="M28 8h-4V6c0-1.1-.9-2-2-2H10c-1.1 0-2 .9-2 2v2H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h24c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zM10 6h12v2H10V6zm18 18H4V10h24v14z" />

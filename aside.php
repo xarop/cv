@@ -1,18 +1,23 @@
- <aside>
+<input type="checkbox" id="nav-toggle" class="nav-toggle no-print" />
+<label for="nav-toggle" class="nav-toggle-label no-print">
+  <span></span>
+</label>
+<label for="nav-toggle" class="nav-overlay no-print"></label>
+ <aside class="sidebar">
           <figure>
             <img title="Adrià Julià Lundgren" src="//xarop.com/cv/ajl.jpg" alt="Adrià Julià Lundgren" />
           </figure>
           <ul>
             <li>
-              <a href="xarop.com" target="_blank" class="big">
+              <a href="https://xarop.com" target="_blank" class="big">
                 <strong>
-                xarop.com 
-                <span style="margin: 0 8px; vertical-align: middle; display: inline-block; line-height: 0;">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="#EE2455">
-                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
-                  </svg>
-                </span>
-                Barcelona
+                  xarop.com
+                  <span style="margin: 0 8px; vertical-align: middle; display: inline-block; line-height: 0;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="#EE2455">
+                      <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                    </svg>
+                  </span>
+                  Barcelona
                 </strong>
               </a>
             </li>
@@ -46,22 +51,27 @@
           </ul>
 
           <ul class="no-print">
+            <li style="margin-top:10px;"><strong>SECTIONS</strong></li>
+            <li class="hidden-desktop"><a href="index.php?for=<?php echo $target_key; ?>#intro">INTRO</a></li>
+            <li><a href="letter.php?for=<?php echo $target_key; ?>">COVER LETTER</a></li>
+            <li><a href="index.php?for=<?php echo $target_key; ?>#experience">EXPERIENCE</a></li>
+            <li><a href="index.php?for=<?php echo $target_key; ?>#formation">FORMATION</a></li>
+            <li><a href="index.php?for=<?php echo $target_key; ?>#skills">TECHNICAL SKILLS</a></li>
+
             <li><strong>ACTIONS</strong></li>
             <li><a href="javascript:window.print()">Print to PDF / Paper</a></li>
-            <li><a href="https://translate.google.com/translate?sl=en&tl=es&u=https://xarop.com/cv/">Translate
-                to Spanish</a></li>
-            <li style="margin-top:10px;"><strong>SECTIONS</strong></li>
-            <li class="hidden-desktop"><a href="#intro">INTRO</a></li>
-            <li><a href="letter.php?for=<?php echo $target_key; ?>">COVER LETTER</a></li>
-            <li><a href="#experience">EXPERIENCE</a></li>
-            <li><a href="#formation">FORMATION</a></li>
-            <li><a href="#skills">TECHNICAL SKILLS</a></li>
+            <li>
+              <a href="https://translate.google.com/translate?sl=en&tl=es&u=https://xarop.com/cv/<?php echo basename($_SERVER['PHP_SELF']); ?>?for=<?php echo $target_key; ?>">
+                Translate to Spanish
+              </a>
+            </li>
+
           </ul>
 
           <ul id="menu-print" class="social-links-menu no-print">
 
             <li>
-              <a href="https://translate.google.com/translate?sl=en&tl=es&u=https://xarop.com/cv/" title="Translate"><span>Translate</span>
+              <a href="https://translate.google.com/translate?sl=en&tl=es&u=https://xarop.com/cv/<?php echo basename($_SERVER['PHP_SELF']); ?>?for=<?php echo $target_key; ?>" title="Translate"><span>Translate</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
                   <path fill="currentColor"
                     d="M27.85 29H30l-6-15h-2.35l-6 15h2.15l1.6-4h6.85zm-7.65-6l2.62-6.56L25.45 23zM18 7V5h-7V2H9v3H2v2h10.74a14.71 14.71 0 0 1-3.19 6.18A13.5 13.5 0 0 1 7.26 9h-2.1a16.47 16.47 0 0 0 3 5.58A16.84 16.84 0 0 1 3 18l.75 1.86A18.47 18.47 0 0 0 9.53 16a16.92 16.92 0 0 0 5.76 3.84L16 18a14.48 14.48 0 0 1-5.12-3.37A17.64 17.64 0 0 0 14.8 7z" />
@@ -78,7 +88,7 @@
             </li>
 
             <li>
-              <a id="printButton" href="javascript:;" title="Print PDF"><span>Print PDF</span>
+              <a id="printButton" href="javascript:window.print()" title="Print PDF"><span>Print PDF</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
                   <path fill="currentColor"
                     d="M24 6.5V8h1a5 5 0 0 1 5 5v7.5a3.5 3.5 0 0 1-3.5 3.5H25v1.5a3.5 3.5 0 0 1-3.5 3.5h-11A3.5 3.5 0 0 1 7 25.5V24H5.5A3.5 3.5 0 0 1 2 20.5V13a5 5 0 0 1 5-5h1V6.5A3.5 3.5 0 0 1 11.5 3h9A3.5 3.5 0 0 1 24 6.5m-14 0V8h12V6.5A1.5 1.5 0 0 0 20.5 5h-9A1.5 1.5 0 0 0 10 6.5m-1 19a1.5 1.5 0 0 0 1.5 1.5h11a1.5 1.5 0 0 0 1.5-1.5v-6a1.5 1.5 0 0 0-1.5-1.5h-11A1.5 1.5 0 0 0 9 19.5zM25 22h1.5a1.5 1.5 0 0 0 1.5-1.5V13a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7.5A1.5 1.5 0 0 0 5.5 22H7v-2.5a3.5 3.5 0 0 1 3.5-3.5h11a3.5 3.5 0 0 1 3.5 3.5z" />
@@ -88,5 +98,13 @@
 
           </ul>
 
-
         </aside>
+
+        <script>
+          document.querySelectorAll('aside a').forEach(link => {
+            link.addEventListener('click', () => {
+              const toggle = document.getElementById('nav-toggle');
+              if (toggle) toggle.checked = false;
+            });
+          });
+        </script>

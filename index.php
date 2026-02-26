@@ -87,17 +87,19 @@
           </p>
 
           <p>
-            <strong>Architecting and Developing High-Scale Sites (WordPress)</strong><br />
+            <strong>Frontend Architecture & High-Scale Platforms</strong><br />
+
+            <a href="//beedataanalytics.com" target="_blank">beedataanalytics.com</a>
+            <small>Enterprise platform for energy data analytics. Implementation of custom <strong>React components</strong> and data visualization interfaces integrated with <strong>REST APIs</strong>.</small>
 
             <a href="//junglemows.com" target="_blank">JungleMows.com</a>
-            <small>Full-cycle eCommerce design and development.</small>
-            <a href="https://memorimage.reus.cat/" target="_blank">memorimage.reus.cat</a>
-            <small>Redesign of the Reus Film Festival platform.</small>
-            <a href="//beedataanalytics.com" target="_blank">beedataanalytics.com</a>
-            <small>Enterprise WordPress Corporate Website.</small>
+            <small>Full-cycle eCommerce architecture. Development of modular UI systems and complex <strong>WooCommerce</strong> logic for high-conversion user flows.</small>
 
-            <small>Figma, WordPress, WooCommerce, ACF, Polylang, Gutenberg, React components, Git, performance optimization.</small>
-          </p>
+            <a href="//memorimage.reus.cat/" target="_blank">memorimage.reus.cat</a>
+            <small>Refactor of the Film Festival platform. Focus on <strong>Performance Optimization</strong> and accessible UI/UX for high-traffic event management.</small>
+
+            <small><strong>Tech Stack:</strong> React, JavaScript (ES6+), Web Components, REST APIs, Figma, WordPress, Git, Performance Tuning.</small>
+        </p>
         </article>
 
         <article>

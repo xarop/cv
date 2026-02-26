@@ -66,9 +66,9 @@
             <small>WordPress, Timber/Twig, ACF, Sophisticated PHP, SASS, Performance & Caching, Code Reviews.</small>
           </p>
 
-          <p><strong>WordPress Developer at Minsait</strong> (<a href="https://www.fbbva.es/" target="_blank">fbbva.es</a>)<br />
-            Advanced WordPress development and implementation of the <strong>OpenWeb</strong> for the BBVA Foundation portal.<br />
-            <small>WordPress, OpenWeb, PHP, JavaScript, SASS, Corporate Frameworks.</small>
+          <p><strong>Frontend Engineer at Minsait | BBVA Foundation</strong> (<a href="https://www.fbbva.es/" target="_blank">fbbva.es</a>)<br />
+              Advanced development and implementation of the <strong>OpenWeb</strong> platform for the BBVA Foundation. Specialist in <strong>BBVA Corporate Frameworks</strong>, ensuring seamless integration between WordPress and <strong>Cells-based</strong> environments. Expert alignment with corporate Design Systems using <strong>Web Components</strong> and <strong>LitElement</strong> to maintain architectural consistency across the banking group’s digital assets.<br />
+              <small>Cells Ecosystem, Web Components, LitElement, JavaScript (ES6+), OpenWeb, SASS, BBVA Corporate Design System.</small>
           </p>
 
           <p><strong>Senior Engineer at BeeData analytics</strong> (<a href="//beedataanalytics.com/" target="_blank">beedataanalytics.com</a>)<br />
@@ -81,7 +81,7 @@
             <small>HTML5, SASS, JavaScript, VueJS, Drupal, PHP, Symfony, Twig Architecture.</small>
           </p>
 
-          <p><strong><em>Web Engineer</em> at SomMobilitat</strong> (<a href="//www.sommobilitat.coop" target="_blank">sommobilitat.coop</a>)<br />
+          <p><strong>Web Engineer at SomMobilitat</strong> (<a href="//www.sommobilitat.coop" target="_blank">sommobilitat.coop</a>)<br />
             Scalable WordPress development and custom API integrations.<br />
             <small>WordPress, ACF, HTML5, CSS3, jQuery, PHP, Git, GoogleMaps API.</small>
           </p>

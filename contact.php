@@ -22,15 +22,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $email_subject = 'CV Contact: ' . $subject;
         $email_body    = "Name: $name\nEmail: $email\n\nMessage:\n$message\n";
 
+        $from = 'CV Form <noreply@xarop.com>';
+
         if ($use_wp_mail) {
             $headers = [
-                'From: ' . $name . ' <' . $email . '>',
-                'Reply-To: ' . $email,
+                'From: ' . $from,
+                'Reply-To: ' . $name . ' <' . $email . '>',
             ];
             $success = wp_mail($to, $email_subject, $email_body, $headers);
         } else {
-            $headers  = "From: $email\r\n";
-            $headers .= "Reply-To: $email\r\n";
+            $headers  = "From: $from\r\n";
+            $headers .= "Reply-To: $name <$email>\r\n";
+            $headers .= "X-Mailer: PHP/" . phpversion();
             $success  = mail($to, $email_subject, $email_body, $headers);
         }
 

@@ -1,4 +1,4 @@
-<footer id="page-footer">
+<footer>
   <div class="container">
     <?php echo $profile['name']; ?> |
     <a href="mailto:<?php echo $profile['email']; ?>"><?php echo $profile['email']; ?></a> |
@@ -8,22 +8,11 @@
   </div>
 </footer>
 
-<script>
-  if (document.getElementById('printButton')) {
-    document.getElementById('printButton').addEventListener('click', function() {
-      window.print();
-    });
-  }
-</script>
-
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1298554-2"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-    dataLayer.push(arguments);
-  }
+  function gtag() { dataLayer.push(arguments); }
   gtag('js', new Date());
   gtag('config', 'UA-1298554-2');
 </script>

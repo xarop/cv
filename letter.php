@@ -1,22 +1,15 @@
 <?php $page_title = 'Cover Letter'; ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <?php require __DIR__ . '/head.php'; ?>
-
 <body>
-  <main id="page0">
+  <main>
     <div class="container">
-      
-       <h1 class="title">
+      <h1 class="title">
         <a href="/cv/"><?php echo $profile['name']; ?></a>
         <span>Cover Letter</span>
       </h1>
-      
-      <div class="row">
-       
-        <main>
-    
+
       <div class="row">
         <section class="intro">
           <h2><?php echo $current['intro_title']; ?></h2>
@@ -31,26 +24,21 @@
           <div style="margin-top: 40px;">
             <p>Best regards,</p>
             <p>
-              <strong>Adrià Julià Lundgren</strong><br />
-              <?php echo $current['intro_title']; ?> | <a href="https://xarop.com">xarop.com</a>
+              <strong><?php echo $profile['name']; ?></strong><br>
+              <?php echo $current['intro_title']; ?> |
+              <a href="<?php echo $profile['website_url']; ?>"><?php echo $profile['website']; ?></a>
             </p>
           </div>
 
           <hr>
-          <p class="no-print"><a href="../<?php echo $target_key; ?>">→ View Full CV</a></p>
+          <p class="no-print"><a href="../<?php echo $target_key; ?>">&#8592; View Full CV</a></p>
         </section>
-      </div>
-   
-  </main>
 
         <?php require __DIR__ . '/aside.php'; ?>
       </div>
     </div>
   </main>
 
-  
-
   <?php require __DIR__ . '/footer.php'; ?>
 </body>
-
 </html>

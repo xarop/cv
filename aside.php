@@ -3,9 +3,20 @@
 <label for="nav-toggle" class="nav-overlay no-print"></label>
 
 <aside>
-  <a href="/cv/" class="big">
+  <a href="<?php echo $base_url ?>" class="big">
     <figure>
-      <img title="<?php echo $profile['name']; ?>" src="<?php echo $profile['photo']; ?>" alt="<?php echo $profile['name']; ?>" />
+      <?php
+        // Corrige duplicidad de /cv/ en la ruta de la imagen
+        $photo = $profile['photo'];
+        if ($base_url === '/cv/' && strpos($photo, '/cv/') === 0) {
+            $img_src = $photo;
+        } elseif ($base_url === '/' && strpos($photo, '/cv/') === 0) {
+            $img_src = substr($photo, 3); // quita el primer / para que quede /ajl.jpg
+        } else {
+            $img_src = $base_url . ltrim($photo, '/');
+        }
+        ?>
+      <img title="<?php echo $profile['name']; ?>" src="<?php echo $img_src; ?>" alt="<?php echo $profile['name']; ?>" />
     </figure>
   </a>
 
@@ -52,17 +63,20 @@
   <nav class="no-print" aria-label="Page sections">
     <ul>
       <li><strong>SECTIONS</strong></li>
-      <li><a href="/cv/<?php echo $target_key; ?>#intro">INTRO</a></li>
-      <li><a href="/cv/letter/<?php echo $target_key; ?>">COVER LETTER</a></li>
-      <li><a href="/cv/<?php echo $target_key; ?>#experience">EXPERIENCE</a></li>
-      <li><a href="/cv/<?php echo $target_key; ?>#formation">FORMATION</a></li>
-      <li><a href="/cv/<?php echo $target_key; ?>#skills">TECHNICAL SKILLS</a></li>
+       <li><a href="<?php echo $base_url ?>#intro">INTRO</a></li>
+        <li>
+          <a href="<?php echo ($base_url === '/') ? '/letter.php' : ($base_url . 'letter/' . $target_key); ?>">COVER LETTER</a>
+        </li>
+        <li><a href="<?php echo $base_url ?>#experience">EXPERIENCE</a></li>
+        <li><a href="<?php echo $base_url ?>#formation">FORMATION</a></li>
+        <li><a href="<?php echo $base_url ?>#skills">TECHNICAL SKILLS</a></li>
+        <!-- <li><a href="<?php echo $base_url ?>contact">Contact Me</a></li> -->
       <li><strong>ACTIONS</strong></li>
-      <li><a href="/cv/contact">Contact Me</a></li>
       <li><a href="javascript:window.print()">Print to PDF / Paper</a></li>
       <li><a href="https://translate.google.com/translate?sl=en&tl=es&u=https://xarop.com/cv/<?php echo $target_key; ?>">Translate to Spanish</a></li>
     </ul>
   </nav>
+       
 
   <ul class="social-links-menu no-print">
     <li>

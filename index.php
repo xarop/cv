@@ -6,7 +6,7 @@
   <header>
     <div class="container">
       <h1 class="title">
-        <a href="/cv/"><?php echo $profile['name']; ?></a>
+        <a href="<?php echo $base_url ?>"><?php echo $profile['name']; ?></a>
         <span>Curriculum Vitae</span>
       </h1>
 

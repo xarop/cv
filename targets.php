@@ -4,6 +4,9 @@
  * Add a new target by adding an entry to the $targets array.
  */
 
+$host = $_SERVER['HTTP_HOST'] ?? '';
+$is_cv_subdomain = (stripos($host, 'cv.xarop.com') === 0);
+$base_url = $is_cv_subdomain ? '/' : '/cv/';
 // Profile information
 $profile = [
     'name' => 'Adrià Julià Lundgren',
@@ -164,11 +167,16 @@ $targets = [
 
 // Determine the current target
 // Support both ?for=target, /cv/target and /cv/letter/target formats
+
 $request_uri = $_SERVER['REQUEST_URI'] ?? '';
 if (preg_match('#/cv/letter/([a-z0-9_-]+)#i', $request_uri, $matches)) {
     $target_key = $matches[1];
 } elseif (preg_match('#/cv/([a-z0-9_-]+)#i', $request_uri, $matches)) {
     $target_key = $matches[1];
+} elseif (preg_match('#^/letter/([a-z0-9_-]+)$#i', $request_uri, $matches)) {
+    $target_key = $matches[1];
+} elseif (preg_match('#^/letter/?$#i', $request_uri)) {
+    $target_key = 'generic';
 } else {
     $target_key = $_GET['for'] ?? 'generic';
 }

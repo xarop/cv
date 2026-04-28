@@ -54,7 +54,7 @@ $page_title = 'Contact';
   <main>
     <div class="container">
       <h1 class="title">
-        <a href="/cv/"><?php echo $profile['name']; ?></a>
+        <a href="<?php echo $base_url ?>"><?php echo $profile['name']; ?></a>
         <span>Contact</span>
       </h1>
 
@@ -66,14 +66,14 @@ $page_title = 'Contact';
             <div class="success-message">
               <p><strong>Thank you!</strong> Your message has been sent. I'll get back to you soon.</p>
             </div>
-            <p><a href="/cv/<?php echo $target_key; ?>">&#8592; View Full CV</a></p>
+            <p><a href="<?php echo $base_url ?><?php echo $target_key; ?>">&#8592; View Full CV</a></p>
           <?php else : ?>
-            <?php if ($error) : ?>
+              <?php if ($error) : ?>
               <div class="error-message">
                 <p><strong>Error:</strong> There was a problem sending your message.
                   Please check all fields and try again.</p>
               </div>
-            <?php endif; ?>
+              <?php endif; ?>
 
             <p>Feel free to reach out for opportunities, collaborations, or just to say hello.</p>
 

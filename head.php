@@ -11,5 +11,5 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <link href="/cv/styles.css" rel="stylesheet">
+  <link href="<?php echo $base_url ?>styles.css" rel="stylesheet">
 </head>

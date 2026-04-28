@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <link href="/cv/styles.css" rel="stylesheet">
+  <link href="<?php echo $base_url ?>styles.css" rel="stylesheet">
 </head>
 
 <body>
@@ -39,17 +39,17 @@
           <p><?php echo $target['intro_bio']; ?></p>
           <p><strong>https://xarop.com/cv/<?php echo htmlspecialchars($key); ?></strong></p>
           <p>
-            <a href="/cv/<?php echo htmlspecialchars($key); ?>">View CV</a> | 
-            <a href="/cv/letter/<?php echo htmlspecialchars($key); ?>">Cover Letter</a>
+            <a href="<?php echo $base_url ?><?php echo htmlspecialchars($key); ?>">View CV</a> | 
+            <a href="<?php echo $base_url ?>letter/<?php echo htmlspecialchars($key); ?>">Cover Letter</a>
           </p>
         </article>
         <hr>
       <?php endforeach; ?>
-      <p><a href="/cv/">← Back to Generic CV</a></p>
+      <p><a href="<?php echo $base_url ?>">← Back to Generic CV</a></p>
     </div>
   </main>
 
-  <?php require '/cv/footer.php'; ?>
+  <?php require __DIR__ . '/footer.php'; ?>
 </body>
 
 </html>

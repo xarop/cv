@@ -28,13 +28,13 @@
           <p><?php echo $target['intro_bio']; ?></p>
           <p><strong><?php echo $profile['website_url']; ?>/cv/<?php echo htmlspecialchars($key); ?></strong></p>
           <p>
-            <a href="/cv/<?php echo htmlspecialchars($key); ?>">View CV</a> | 
-            <a href="/cv/letter/<?php echo htmlspecialchars($key); ?>">Cover Letter</a>
+            <a href="<?php echo $base_url ?><?php echo htmlspecialchars($key); ?>">View CV</a> | 
+            <a href="<?php echo $base_url ?>letter/<?php echo htmlspecialchars($key); ?>">Cover Letter</a>
           </p>
         </article>
         <hr>
       <?php endforeach; ?>
-      <p><a href="/cv/">← Back to CV</a></p>
+      <p><a href="<?php echo $base_url ?>">← Back to CV</a></p>
     </div>
   </main>
 

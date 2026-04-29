@@ -8,6 +8,9 @@ on:
 jobs:
   ftp-deploy:
     runs-on: ubuntu-latest
+    environment: xarop.com
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: Checkout code
         uses: actions/checkout@v4

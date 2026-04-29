@@ -45,7 +45,7 @@ $targets = [
         ]
     ],
 
-     'frontend' => [
+    'frontend' => [
         'company' => 'FrontEnd Developer',
         'intro_title' => 'Senior FrontEnd Developer',
         'intro_bio' => 'FrontEnd Developer with 20+ years of experience building high-performance web applications. Expert in modern JavaScript frameworks, responsive design, and component architecture.',
@@ -180,6 +180,26 @@ $targets = [
             'What makes this approach genuinely effective is the technical depth behind it. Twenty years of FrontEnd experience — across <strong>React</strong>, <strong>VueJS</strong>, <strong>Angular</strong>, <strong>TypeScript</strong>, and sophisticated <strong>CSS/SASS</strong> architectures — means I can evaluate AI output critically, spot what needs refinement, and ensure every generated piece integrates cleanly into the broader system. AI amplifies expertise; it cannot substitute for it.',
             'I also bring a strong design sensibility to this work. As a natural bridge between <strong>Design and Development</strong>, I am a <strong>Figma</strong> expert who architects <strong>Design Systems</strong> and translates high-fidelity designs into pixel-perfect implementations. AI tools allow me to close the design-to-code gap faster than ever, while maintaining the quality that sophisticated digital products demand.',
             'I am eager to bring this AI-first, design-aware FrontEnd profile to your team — contributing not only to the quality of individual deliverables, but to a broader culture of intelligent, efficient, and sustainable development.'
+        ]
+    ],
+
+    'wetransfer' => [
+        'company' => 'WeTransfer / Bending Spoons',
+        'intro_title' => 'UI/UX Designer & FrontEnd Developer · AI-Native',
+        'intro_bio' => 'Senior UI/UX Designer and FrontEnd Developer with 20+ years of experience, I operate fluently at the intersection of design and engineering. I know when to reach for <strong>Figma</strong> and when to reach for code — and I move between both to get the best result faster.',
+        'intro_bio_2' => 'I start with AI. Before opening any design tool, I use LLMs to clarify intent, surface edge cases, and draft initial approaches — compressing the time from ambiguity to direction. I use <strong>Cursor</strong> and <strong>Claude Code</strong> to turn rough concepts into interactive prototypes and generate production-ready frontend code.',
+        'intro_bio_3' => 'Expert in <strong>Figma</strong> and <strong>Design Systems</strong>, I architect scalable component libraries that give engineering teams a solid foundation to build from. I co-create with PMs and engineers from day one, making design decisions that are both delightful and technically grounded.',
+        'intro_bio_4' => 'Product-aware and data-informed. I track funnels, retention, and adoption to assess design effectiveness — and I identify the highest-leverage improvements from the backlog, aligning stakeholders and moving fast to deliver measurable impact.',
+        'tech_stack' => '<strong>Figma</strong>, <strong>Design Systems</strong>, <strong>UI/UX Design</strong>, <strong>Cursor</strong>, <strong>Claude Code</strong>, <strong>AI-Assisted Development</strong>, <strong>React</strong>, HTML5, CSS3/SASS, JavaScript, TypeScript, VueJS, REST APIs, Prototyping, User Research, A/B Testing, SCRUM, GIT',
+        'letter_intro' => 'Senior UI/UX Designer and FrontEnd Developer with 20+ years of experience, operating natively at the intersection of design and code — with an AI-first workflow built around <strong>Cursor</strong>, <strong>Claude Code</strong>, and LLM-driven thinking from the very first step.',
+        'letter_greeting' => 'To the Bending Spoons Team,',
+        'letter_date' => date('F j, Y'),
+        'letter_body' => [
+            'I am writing to express my genuine interest in joining the WeTransfer team. Bending Spoons\' approach — acquiring digital products with untapped potential and raising them through operational excellence, deep AI integration, and high-calibre teams — is the kind of environment where I know I can do my best work and grow fast.',
+            'The responsibilities you describe match exactly how I already operate. I start with an LLM: before opening any design tool, I use AI to clarify intent, draft short specs, and surface risks and edge cases. This compresses the time from ambiguity to a shared direction that the whole team can move on. From there, I reach for <strong>Cursor</strong> and <strong>Claude Code</strong> to prototype ideas rapidly and generate production-ready frontend code — knowing when that is faster and more precise than a static Figma hand-off, and when it is not.',
+            'My 20+ years span both sides of the design-code divide. As a <strong>Figma</strong> expert and <strong>Design Systems</strong> architect, I have built component libraries used by multi-disciplinary teams on high-traffic platforms — <strong>vueling.com</strong>, <strong>Casa del Libro</strong>, <strong>ccib.es</strong>, and <strong>bandalux.com</strong>. I translate high-fidelity designs into pixel-perfect, accessible implementations, and I stay in the build through QA and release to make sure what ships matches what was designed.',
+            'I am also comfortable with the product layer of the work. I track funnels, retention, and adoption metrics to understand whether a design decision is actually working — and I am used to scanning a backlog to identify where a focused UX improvement can unlock real business value, then aligning stakeholders and executing quickly.',
+            'The bar Bending Spoons sets is one I find motivating, not intimidating. I am eager to bring my design depth, engineering fluency, and AI-native workflow to your team — and to contribute to making WeTransfer an even more exceptional product.'
         ]
     ]
 

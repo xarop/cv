@@ -6,7 +6,8 @@
 
 $host = $_SERVER['HTTP_HOST'] ?? '';
 $is_cv_subdomain = (stripos($host, 'cv.xarop.com') === 0);
-$base_url = $is_cv_subdomain ? '/' : '/cv/';
+$is_local = (strpos($host, 'localhost') !== false || strpos($host, '127.0.0.1') !== false);
+$base_url = ($is_cv_subdomain || $is_local) ? '/' : '/cv/';
 // Profile information
 $profile = [
     'name' => 'Adrià Julià Lundgren',

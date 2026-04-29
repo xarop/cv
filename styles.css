@@ -313,10 +313,9 @@ table.skill td.last {
 
 .skill-track {
   position: relative;
-  height: 16px;
+  height: 4px;
   background: rgba(0, 0, 0, 0.06);
   border-radius: 3px;
-  overflow: hidden;
 }
 
 .skill-fill {

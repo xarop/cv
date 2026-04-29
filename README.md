@@ -60,6 +60,21 @@ Emails are sent from `noreply@xarop.com` (server domain, passes SPF/DKIM)
 with `Reply-To` set to the visitor's address.
 Uses `wp_mail()` if WordPress is available, falls back to `mail()`.
 
+## Local development
+
+```bash
+php -S localhost:8080 router.php
+```
+
+| URL | Page |
+|-----|------|
+| `http://localhost:8080/` | CV (generic target) |
+| `http://localhost:8080/{target}` | CV for a specific target |
+| `http://localhost:8080/letter/{target}` | Cover letter |
+| `http://localhost:8080/targets` | List of all targets |
+
+The `router.php` replicates the `.htaccess` rules and serves static assets (CSS, images) directly.
+
 ## Automatic deployment (GitHub Actions)
 
 Every time you push to the `main` branch, the contents of `web/cv/` are automatically deployed via SFTP to xarop.com/cv/ using GitHub Actions.

@@ -70,7 +70,7 @@
         <li><a href="<?php echo $base_url ?>#experience">EXPERIENCE</a></li>
         <li><a href="<?php echo $base_url ?>#formation">FORMATION</a></li>
         <li><a href="<?php echo $base_url ?>#skills">TECHNICAL SKILLS</a></li>
-        <!-- <li><a href="<?php echo $base_url ?>contact">Contact Me</a></li> -->
+        <li><a href="<?php echo $base_url ?>contact">Contact Me</a></li>
       <li><strong>ACTIONS</strong></li>
       <li><a href="javascript:window.print()">Print to PDF / Paper</a></li>
       <li><a href="https://translate.google.com/translate?sl=en&tl=es&u=https://xarop.com/cv/<?php echo $target_key; ?>">Translate to Spanish</a></li>

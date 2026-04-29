@@ -289,19 +289,55 @@ table.skill td.last {
   font-size: 12px;
 }
 
-.skill-bar {
-  height: 4px;
-  background: #eee;
-  width: 100%;
-  display: block;
-  border-radius: 2px;
+.skill-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px;
+}
+
+.skill-list li {
+  margin-bottom: 10px;
+}
+
+.skill-label {
+  font-size: 14px;
+  margin-bottom: 4px;
+  color: var(--text-color);
+}
+
+.skill-label small {
+  color: var(--text-muted);
+  font-size: 11px;
+  margin-left: 4px;
+}
+
+.skill-track {
+  position: relative;
+  height: 16px;
+  background: rgba(0, 0, 0, 0.06);
+  border-radius: 3px;
   overflow: hidden;
 }
 
-.skill-bar-fill {
-  height: 100%;
+.skill-fill {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
   background: var(--primary-color);
-  display: block;
+  opacity: 0.3;
+  border-radius: 3px;
+}
+
+.skill-score {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--text-light);
+  letter-spacing: 0.03em;
 }
 
 /* Footer (Print & Screen) */

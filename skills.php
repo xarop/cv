@@ -4,48 +4,40 @@
           <h4 class="title">Web Development &amp; Architecture</h4>
           <ul class="skill-list">
             <li>
-              <span>High-Level WordPress <small>Gutenberg, custom themes and plugins</small></span>
-              <meter value="10" min="0" max="10" title="10/10"></meter>
-              <span class="skill-score">10/10</span>
+              <div class="skill-label"><span>High-Level WordPress <small>Gutenberg, custom themes and plugins</small></span></div>
+              <div class="skill-track"><div class="skill-fill" style="width:100%"></div><span class="skill-score">10/10</span></div>
             </li>
             <li>
-              <span>Full-Stack Development <small>PHP, JavaScript, React, VueJS</small></span>
-              <meter value="9.5" min="0" max="10" title="9.5/10"></meter>
-              <span class="skill-score">9.5/10</span>
+              <div class="skill-label"><span>Full-Stack Development <small>PHP, JavaScript, React, VueJS</small></span></div>
+              <div class="skill-track"><div class="skill-fill" style="width:95%"></div><span class="skill-score">9.5/10</span></div>
             </li>
             <li>
-              <span>API Integration &amp; Design <small>REST, Google Cloud, AI Services</small></span>
-              <meter value="9" min="0" max="10" title="9/10"></meter>
-              <span class="skill-score">9/10</span>
+              <div class="skill-label"><span>API Integration &amp; Design <small>REST, Google Cloud, AI Services</small></span></div>
+              <div class="skill-track"><div class="skill-fill" style="width:90%"></div><span class="skill-score">9/10</span></div>
             </li>
             <li>
-              <span>Cloud &amp; DevOps <small>AWS, Azure, Docker, CI/CD</small></span>
-              <meter value="8" min="0" max="10" title="8/10"></meter>
-              <span class="skill-score">8/10</span>
+              <div class="skill-label"><span>Cloud &amp; DevOps <small>AWS, Azure, Docker, CI/CD</small></span></div>
+              <div class="skill-track"><div class="skill-fill" style="width:80%"></div><span class="skill-score">8/10</span></div>
             </li>
             <li>
-              <span>Unit Testing <small>Vitest, React Testing Library, Chai/Mocha</small></span>
-              <meter value="9" min="0" max="10" title="9/10"></meter>
-              <span class="skill-score">9/10</span>
+              <div class="skill-label"><span>Unit Testing <small>Vitest, React Testing Library, Chai/Mocha</small></span></div>
+              <div class="skill-track"><div class="skill-fill" style="width:90%"></div><span class="skill-score">9/10</span></div>
             </li>
           </ul>
 
           <h4 class="title">Front-End &amp; UX/UI Design</h4>
           <ul class="skill-list">
             <li>
-              <span>UX/UI Design <small>Figma, Design Systems Architecture</small></span>
-              <meter value="10" min="0" max="10" title="10/10"></meter>
-              <span class="skill-score">10/10</span>
+              <div class="skill-label"><span>UX/UI Design <small>Figma, Design Systems Architecture</small></span></div>
+              <div class="skill-track"><div class="skill-fill" style="width:100%"></div><span class="skill-score">10/10</span></div>
             </li>
             <li>
-              <span>Modern CSS <small>Tailwind / SASS / BEM</small></span>
-              <meter value="10" min="0" max="10" title="10/10"></meter>
-              <span class="skill-score">10/10</span>
+              <div class="skill-label"><span>Modern CSS <small>Tailwind / SASS / BEM</small></span></div>
+              <div class="skill-track"><div class="skill-fill" style="width:100%"></div><span class="skill-score">10/10</span></div>
             </li>
             <li>
-              <span>Optimization &amp; Standards <small>SEO, Core Web Vitals, Caching</small></span>
-              <meter value="9.5" min="0" max="10" title="9.5/10"></meter>
-              <span class="skill-score">9.5/10</span>
+              <div class="skill-label"><span>Optimization &amp; Standards <small>SEO, Core Web Vitals, Caching</small></span></div>
+              <div class="skill-track"><div class="skill-fill" style="width:95%"></div><span class="skill-score">9.5/10</span></div>
             </li>
           </ul>
 

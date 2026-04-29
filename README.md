@@ -1,25 +1,26 @@
 
 ---
+
 # CV — Adrià Julià Lundgren
 
-**Live:** https://xarop.com/cv/  
+**Live:** https://xarop.com/cv/
 **Contact:** ajl@xarop.com
 
 ---
 
 ## Structure
 
-| File | Role |
-|---|---|
-| `targets.php` | All data: profile info and per-target CV content |
-| `index.php` | Main CV page |
-| `letter.php` | Cover letter page |
-| `contact.php` | Contact form |
-| `list-targets.php` | Admin index of all CV targets |
-| `head.php` | Shared `<head>` — loads targets, fonts, CSS |
-| `aside.php` | Sidebar: photo, contact, nav, actions |
-| `footer.php` | Footer + Google Analytics |
-| `styles.css` | All styles |
+| File              | Role                                              |
+|-------------------|--------------------------------------------------|
+| targets.php       | All data: profile info and per-target CV content  |
+| index.php         | Main CV page                                      |
+| letter.php        | Cover letter page                                 |
+| contact.php       | Contact form                                      |
+| list-targets.php  | Admin index of all CV targets                     |
+| head.php          | Shared `<head>` — loads targets, fonts, CSS       |
+| aside.php         | Sidebar: photo, contact, nav, actions             |
+| footer.php        | Footer + Google Analytics                         |
+| styles.css        | All styles                                        |
 
 ## URL routing (`.htaccess`)
 
@@ -55,20 +56,19 @@ Then access it at `/cv/key` and `/cv/letter/key`.
 
 ## Contact form
 
-Emails are sent from `noreply@xarop.com` (server domain, passes SPF/DKIM)  
-with `Reply-To` set to the visitor's address.  
+Emails are sent from `noreply@xarop.com` (server domain, passes SPF/DKIM)
+with `Reply-To` set to the visitor's address.
 Uses `wp_mail()` if WordPress is available, falls back to `mail()`.
 
+## Automatic deployment (GitHub Actions)
 
-## Deploy automático (GitHub Actions)
+Every time you push to the `main` branch, the contents of `web/cv/` are automatically deployed via SFTP to xarop.com/cv/ using GitHub Actions.
 
-Cada vez que haces push a la rama `main`, el contenido de `web/cv/` se despliega automáticamente por SFTP a xarop.com/cv/ usando GitHub Actions.
-
-**Secrets necesarios:**
+**Required secrets:**
 - `FTP_SERVER`
 - `FTP_USERNAME`
 - `FTP_PASSWORD`
 
-El workflow está en `.github/workflows/deploy.yml` y usa [SamKirkland/FTP-Deploy-Action](https://github.com/SamKirkland/FTP-Deploy-Action).
+The workflow is in `.github/workflows/deploy.yml` and uses [SamKirkland/FTP-Deploy-Action](https://github.com/SamKirkland/FTP-Deploy-Action).
 
-**Excluye:** archivos y carpetas ocultas, `.github`, y `README.md`.
+**Excludes:** hidden files and folders, `.github`, and `README.md`.

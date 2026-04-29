@@ -1,3 +1,5 @@
+
+---
 # CV — Adrià Julià Lundgren
 
 **Live:** https://xarop.com/cv/  
@@ -56,3 +58,17 @@ Then access it at `/cv/key` and `/cv/letter/key`.
 Emails are sent from `noreply@xarop.com` (server domain, passes SPF/DKIM)  
 with `Reply-To` set to the visitor's address.  
 Uses `wp_mail()` if WordPress is available, falls back to `mail()`.
+
+
+## Deploy automático (GitHub Actions)
+
+Cada vez que haces push a la rama `main`, el contenido de `web/cv/` se despliega automáticamente por SFTP a xarop.com/cv/ usando GitHub Actions.
+
+**Secrets necesarios:**
+- `FTP_SERVER`
+- `FTP_USERNAME`
+- `FTP_PASSWORD`
+
+El workflow está en `.github/workflows/deploy.yml` y usa [SamKirkland/FTP-Deploy-Action](https://github.com/SamKirkland/FTP-Deploy-Action).
+
+**Excluye:** archivos y carpetas ocultas, `.github`, y `README.md`.
